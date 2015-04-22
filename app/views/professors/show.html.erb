@@ -1,0 +1,24 @@
+<div class="row">
+  <aside class="col-md-4">
+    <section class="user_info">
+      <h1>
+        <%= @professor.first_name %> <%= @professor.last_name %>, 
+	<%= @professor.department %>
+	<p>
+	  <%= @professor.netid %>@princeton.edu
+	</p>   
+      </h1>
+    </section>
+  </aside>
+
+  <div class="col-md-8">
+    <% if @professor.reviews.any? %>
+      <h3>Reviews (<%= @professor.reviews.count %>)</h3>
+      <ol class="reviews">
+        <%= render @reviews %>
+      </ol>
+      <%= will_paginate @reviews %>
+    <% end %>
+  </div>
+
+</div>

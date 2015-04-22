@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  student_netid: MyString
+  student_class: MyString
+  professor_netid: MyString
+  relationship: MyString
+  availability: 1
+  responsiveness: 1
+  knowledge: 1
+  organization: 1
+  friendliness: 1
+  helpfulness: 1
+  comments: MyText
+  professor_id: 
+
+two:
+  student_netid: MyString
+  student_class: MyString
+  professor_netid: MyString
+  relationship: MyString
+  availability: 1
+  responsiveness: 1
+  knowledge: 1
+  organization: 1
+  friendliness: 1
+  helpfulness: 1
+  comments: MyText
+  professor_id: 

@@ -1,0 +1,53 @@
+<h1>Add a review</h1>
+
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <%= form_for(@review) do |f| %>
+      <%= render 'shared/error_messages', object: f.object %>
+
+      <%= f.label :student_netid, "Your NetID" %>
+      <%= f.text_field :student_netid, class: 'form-control' %>
+
+      <%= f.label :student_class, "Your Class Year" %>
+      <%= f.text_field :student_class, class: 'form-control' %>
+
+      <%= f.label :professor_netid, "Professor NetID" %>
+      <%= f.text_field :professor_netid, class: 'form-control' %>
+
+      <%= f.label :relationship, "Relationship with professor" %>
+      <%= f.text_field :relationship, class: 'form-control' %>
+
+      <% if false %>
+      <%= f.label :availability, "Availability" %>
+      <%= f.radio_button :availability, 1, class: 'form-control' %>
+      <%= f.label :availability, :value => "1" %>
+      <%= f.radio_button :availability, 2, class: 'form-control' %>
+      <%= f.label :availability, :value => "2" %>
+      <% end %>
+
+      <%= f.label :availability, "Availability" %>
+      <%= f.text_field :availability, class: 'form-control' %>
+
+      <%= f.label :responsiveness, "Responsiveness" %>
+      <%= f.text_field :responsiveness, class: 'form-control' %>
+
+      <%= f.label :knowledge, "Knowledge" %>
+      <%= f.text_field :knowledge, class: 'form-control' %>
+
+      <%= f.label :organization, "Organization" %>
+      <%= f.text_field :organization, class: 'form-control' %>
+
+      <%= f.label :friendliness, "Friendliness" %>
+      <%= f.text_field :friendliness, class: 'form-control' %>
+
+      <%= f.label :helpfulness, "Helpfulness" %>
+      <%= f.text_field :helpfulness, class: 'form-control' %>
+
+      <div class="field">
+	<%= f.text_area :comments, placeholder: "Comments" %>
+      </div>
+
+      <%= f.submit "Add review", class: "btn btn-primary" %>
+    <% end %>
+  </div>
+</div>

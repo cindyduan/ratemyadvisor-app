@@ -1,0 +1,9 @@
+<h1>Search results</h1>
+
+<ul class="results">
+  <% @professors.each do |professor| %>
+    <li>
+      <%= link_to professor.netid, professor %>
+    </li>
+  <% end %>
+</ul>

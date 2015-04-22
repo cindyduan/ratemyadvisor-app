@@ -1,0 +1,2 @@
+<%= @professor.first_name %>, <%= @professor.last_name %>, 
+<%= @professor.netid %>, <%= @professor.department %>

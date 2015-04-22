@@ -1,0 +1,7 @@
+<li id="review-<%= review.id %>">
+  <span class="comments"><%= review.comments %></span>
+  <span class="relationship"><%= review.relationship %></span>
+  <span class="timestamp">
+    Posted <%= time_ago_in_words(review.created_at) %> ago.
+  </span>
+</li>
