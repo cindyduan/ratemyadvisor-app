@@ -66,12 +66,13 @@ p {
 
 #logo {
   float: left;
+  margin-left: 0px;
   margin-right: 10px;
   font-size: 1.7em;
-  color: white;
+  color: orange;
   text-transform: uppercase;
   letter-spacing: -1px;
-  padding-top: 40px;
+  padding-top: 10px;
   font-weight: bold;
   &:hover {
     color: white;
@@ -79,14 +80,29 @@ p {
   }
 }
 
-#search_box {
-  padding-top: 40px;
+#container {
+  padding-top: 10px;
 }
 
-container {
-  padding-top: 40px;
+#home_button {
+  color: orange;
 }
 
+#about_button {
+  color: orange;
+}
+
+#find_button {
+  color: orange;
+}
+
+#rate_button {
+  color: orange;
+}
+
+#logout_button {
+  color: orange;
+}
 
 /* footer */
 
