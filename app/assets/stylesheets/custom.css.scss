@@ -12,7 +12,6 @@ $gray-medium-light: #eaeaea;
   box-sizing:         border-box;
 }
 
-
 /* universal */
 
 body {
@@ -137,8 +136,6 @@ p {
   }
 }
 
-
-
 /* footer */
 
 footer {
@@ -164,6 +161,18 @@ footer {
     }
   }
 }
+
+/* new review raio buttons */
+/*
+relationship {
+   input[type="radio"], label{
+     float:left;
+    }
+    input{
+  clear:left;
+  }
+}
+*/
 
 /* miscellaneous */
 

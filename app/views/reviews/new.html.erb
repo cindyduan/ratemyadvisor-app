@@ -6,8 +6,12 @@
     <%= form_for(@review) do |f| %>
       <%= render 'shared/error_messages', object: f.object %>
 
+      <%= f.hidden_field :student_netid, :value => session[:cas_user]%>
+
+      <% if false %>
       <%= f.label :student_netid, "Your NetID" %>
       <%= f.text_field :student_netid, class: 'form-control' %>
+      <% end %>
 
       <%= f.label :student_class, "Your Class Year" %>
       <%= f.text_field :student_class, class: 'form-control' %>
@@ -15,20 +19,17 @@
       <%= f.label :professor_netid, "Professor NetID" %>
       <%= f.text_field :professor_netid, class: 'form-control' %>
 
+      <div class="form-inline">
+      <table>
+      <tr>
       <%= f.label :relationship, "Type of work with advisor" %>
-      <%= f.text_field :relationship, class: 'form-control' %>
+      <td><%= f.radio_button :relationship, "Senior Thesis", :style => "margin-left: 10px" %><%= f.label :relationship, 'Senior Thesis', :style => "display:inline", :style => "margin-left: 15px"%></td>
+      <td><%= f.radio_button :relationship, "Junior Independent Work", :style => "margin-left: 10px" %><%= f.label :relationship, 'Junior Independent Work', :style => "display:inline", :style => "margin-left: 15px" %></td>
+      <td><%= f.radio_button :relationship, "Research Assistant", :style => "margin-left: 10px" %><%= f.label :relationship, 'Research Assistant', :style => "display:inline", :style => "margin-left: 15px" %></td>
+      <tr>
+      </table>
+      </div>
 
-      <% if false %>
-      <%= f.label :availability, "Availability" %>
-      <%= range_field(:availability, in: 1..5) %>
-      <% end %>
-
-      <% if false %>
-      <%= f.radio_button :availability, 1, class: 'form-control' %>
-      <%= f.label :availability, :value => "1" %>
-      <%= f.radio_button :availability, 2, class: 'form-control' %>
-      <%= f.label :availability, :value => "2" %>
-      <% end %>
 
       <table>
       <tr>
