@@ -39555,3 +39555,476 @@ Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::
 
 
 Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 15:20:09 -0400
+
+
+Started GET "/" for ::1 at 2015-04-28 15:26:45 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "fgiovann". Previous ticket "ST-24648-rTePwh9TjidBqMiReJdE-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (16.7ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 726ms (Views: 706.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-04-28 15:26:46 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "fgiovann". Previous ticket "ST-24648-rTePwh9TjidBqMiReJdE-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 297ms (Views: 293.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 15:26:46 -0400
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 15:26:47 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for ::1 at 2015-04-28 15:26:47 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 15:26:47 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 15:26:47 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-28 15:26:47 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 15:26:47 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-28 15:26:47 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for ::1 at 2015-04-28 15:26:47 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-04-28 15:26:47 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for ::1 at 2015-04-28 15:26:47 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 15:26:47 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 15:26:47 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 15:26:47 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 15:26:47 -0400
+
+
+Started GET "/assets/application-38157071f3b978f57526663e1a720b55.js?body=1" for ::1 at 2015-04-28 15:26:47 -0400
+
+
+Started GET "/find" for ::1 at 2015-04-28 15:26:49 -0400
+Processing by SearchsController#new as HTML
+  Rendered searchs/new.html.erb within layouts/application (13.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 256ms (Views: 255.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/find" for ::1 at 2015-04-28 15:26:54 -0400
+Processing by SearchsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fkghyDxEXCllTAStc2oj91EwLhY4zMpexrzSOGVNz+gSnptaVxXFEfhLYx6vbY7ZFY3Ay8jcqIdy0h8hS/KaPA==", "search"=>{"first_name"=>"", "last_name"=>"Farber", "netid"=>"", "department"=>""}, "commit"=>"Find advisor"}
+  [1m[35mProfessor Load (10.0ms)[0m  SELECT "professors".* FROM "professors"
+  Rendered searchs/index.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 310ms (Views: 239.6ms | ActiveRecord: 11.1ms)
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 15:26:54 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 15:26:54 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 15:26:54 -0400
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 15:26:54 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for ::1 at 2015-04-28 15:26:54 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 15:26:54 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-28 15:26:54 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for ::1 at 2015-04-28 15:26:54 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-28 15:26:54 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for ::1 at 2015-04-28 15:26:54 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-04-28 15:26:54 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 15:26:54 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 15:26:54 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 15:26:54 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 15:26:54 -0400
+
+
+Started GET "/assets/application-38157071f3b978f57526663e1a720b55.js?body=1" for ::1 at 2015-04-28 15:26:54 -0400
+
+
+Started GET "/professors/264" for ::1 at 2015-04-28 15:26:56 -0400
+Processing by ProfessorsController#show as HTML
+  Parameters: {"id"=>"264"}
+  [1m[36mProfessor Load (0.2ms)[0m  [1mSELECT  "professors".* FROM "professors" WHERE "professors"."id" = ? LIMIT 1[0m  [["id", 264]]
+  [1m[35mReview Exists (0.2ms)[0m  SELECT  1 AS one FROM "reviews" WHERE "reviews"."professor_id" = ? LIMIT 1  [["professor_id", 264]]
+  [1m[36mReview Load (0.2ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."professor_id" = ?  ORDER BY "reviews"."created_at" DESC[0m  [["professor_id", 264]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "reviews" WHERE "reviews"."professor_id" = ?  [["professor_id", 264]]
+  [1m[36mReview Load (0.2ms)[0m  [1mSELECT  "reviews".* FROM "reviews" WHERE "reviews"."professor_id" = ?  ORDER BY "reviews"."created_at" DESC LIMIT 30 OFFSET 0[0m  [["professor_id", 264]]
+  Rendered reviews/_review.html.erb (351.5ms)
+  Rendered professors/show.html.erb within layouts/application (388.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 675ms (Views: 634.7ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/professors/264" for ::1 at 2015-04-28 15:27:09 -0400
+Processing by ProfessorsController#show as HTML
+  Parameters: {"id"=>"264"}
+  [1m[35mProfessor Load (0.1ms)[0m  SELECT  "professors".* FROM "professors" WHERE "professors"."id" = ? LIMIT 1  [["id", 264]]
+  [1m[36mReview Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "reviews" WHERE "reviews"."professor_id" = ? LIMIT 1[0m  [["professor_id", 264]]
+  [1m[35mReview Load (0.2ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."professor_id" = ?  ORDER BY "reviews"."created_at" DESC  [["professor_id", 264]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "reviews" WHERE "reviews"."professor_id" = ?[0m  [["professor_id", 264]]
+  [1m[35mReview Load (0.2ms)[0m  SELECT  "reviews".* FROM "reviews" WHERE "reviews"."professor_id" = ?  ORDER BY "reviews"."created_at" DESC LIMIT 30 OFFSET 0  [["professor_id", 264]]
+  Rendered reviews/_review.html.erb (1.8ms)
+  Rendered professors/show.html.erb within layouts/application (23.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 284ms (Views: 262.9ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 15:27:10 -0400
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 15:27:10 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 15:27:10 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for ::1 at 2015-04-28 15:27:10 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 15:27:10 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 15:27:10 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-28 15:27:10 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-28 15:27:10 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for ::1 at 2015-04-28 15:27:10 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-04-28 15:27:10 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for ::1 at 2015-04-28 15:27:10 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 15:27:10 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 15:27:10 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 15:27:10 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 15:27:10 -0400
+
+
+Started GET "/assets/application-38157071f3b978f57526663e1a720b55.js?body=1" for ::1 at 2015-04-28 15:27:10 -0400
+
+
+Started GET "/professors/264" for ::1 at 2015-04-28 15:28:48 -0400
+Processing by ProfessorsController#show as HTML
+  Parameters: {"id"=>"264"}
+  [1m[36mProfessor Load (0.2ms)[0m  [1mSELECT  "professors".* FROM "professors" WHERE "professors"."id" = ? LIMIT 1[0m  [["id", 264]]
+  [1m[35mReview Exists (0.1ms)[0m  SELECT  1 AS one FROM "reviews" WHERE "reviews"."professor_id" = ? LIMIT 1  [["professor_id", 264]]
+  [1m[36mReview Load (0.1ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."professor_id" = ?  ORDER BY "reviews"."created_at" DESC[0m  [["professor_id", 264]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "reviews" WHERE "reviews"."professor_id" = ?  [["professor_id", 264]]
+  [1m[36mReview Load (0.3ms)[0m  [1mSELECT  "reviews".* FROM "reviews" WHERE "reviews"."professor_id" = ?  ORDER BY "reviews"."created_at" DESC LIMIT 30 OFFSET 0[0m  [["professor_id", 264]]
+  Rendered reviews/_review.html.erb (0.7ms)
+  Rendered professors/show.html.erb within layouts/application (10.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 242ms (Views: 238.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 15:28:48 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 15:28:48 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 15:28:48 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for ::1 at 2015-04-28 15:28:48 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 15:28:48 -0400
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 15:28:48 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-28 15:28:48 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-28 15:28:48 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for ::1 at 2015-04-28 15:28:48 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-04-28 15:28:48 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for ::1 at 2015-04-28 15:28:48 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 15:28:48 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 15:28:48 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 15:28:48 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 15:28:48 -0400
+
+
+Started GET "/assets/application-38157071f3b978f57526663e1a720b55.js?body=1" for ::1 at 2015-04-28 15:28:48 -0400
+
+
+Started GET "/professors/264" for ::1 at 2015-04-28 15:29:14 -0400
+Processing by ProfessorsController#show as HTML
+  Parameters: {"id"=>"264"}
+  [1m[35mProfessor Load (0.1ms)[0m  SELECT  "professors".* FROM "professors" WHERE "professors"."id" = ? LIMIT 1  [["id", 264]]
+  [1m[36mReview Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "reviews" WHERE "reviews"."professor_id" = ? LIMIT 1[0m  [["professor_id", 264]]
+  [1m[35mReview Load (0.2ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."professor_id" = ?  ORDER BY "reviews"."created_at" DESC  [["professor_id", 264]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "reviews" WHERE "reviews"."professor_id" = ?[0m  [["professor_id", 264]]
+  [1m[35mReview Load (0.2ms)[0m  SELECT  "reviews".* FROM "reviews" WHERE "reviews"."professor_id" = ?  ORDER BY "reviews"."created_at" DESC LIMIT 30 OFFSET 0  [["professor_id", 264]]
+  Rendered reviews/_review.html.erb (0.7ms)
+  Rendered professors/show.html.erb within layouts/application (11.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 251ms (Views: 248.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 15:29:14 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 15:29:14 -0400
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 15:29:14 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 15:29:14 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-28 15:29:14 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for ::1 at 2015-04-28 15:29:14 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 15:29:14 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-28 15:29:14 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for ::1 at 2015-04-28 15:29:14 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-04-28 15:29:14 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for ::1 at 2015-04-28 15:29:14 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 15:29:14 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 15:29:14 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 15:29:14 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 15:29:14 -0400
+
+
+Started GET "/assets/application-38157071f3b978f57526663e1a720b55.js?body=1" for ::1 at 2015-04-28 15:29:14 -0400
+
+
+Started GET "/professors/264" for ::1 at 2015-04-28 15:29:39 -0400
+Processing by ProfessorsController#show as HTML
+  Parameters: {"id"=>"264"}
+  [1m[36mProfessor Load (0.2ms)[0m  [1mSELECT  "professors".* FROM "professors" WHERE "professors"."id" = ? LIMIT 1[0m  [["id", 264]]
+  [1m[35mReview Exists (0.2ms)[0m  SELECT  1 AS one FROM "reviews" WHERE "reviews"."professor_id" = ? LIMIT 1  [["professor_id", 264]]
+  [1m[36mReview Load (0.2ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."professor_id" = ?  ORDER BY "reviews"."created_at" DESC[0m  [["professor_id", 264]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "reviews" WHERE "reviews"."professor_id" = ?  [["professor_id", 264]]
+  [1m[36mReview Load (0.2ms)[0m  [1mSELECT  "reviews".* FROM "reviews" WHERE "reviews"."professor_id" = ?  ORDER BY "reviews"."created_at" DESC LIMIT 30 OFFSET 0[0m  [["professor_id", 264]]
+  Rendered reviews/_review.html.erb (1.0ms)
+  Rendered professors/show.html.erb within layouts/application (21.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 282ms (Views: 264.7ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 15:29:40 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for ::1 at 2015-04-28 15:29:40 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 15:29:40 -0400
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 15:29:40 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 15:29:40 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 15:29:40 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-28 15:29:40 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-28 15:29:40 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for ::1 at 2015-04-28 15:29:40 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-04-28 15:29:40 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for ::1 at 2015-04-28 15:29:40 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 15:29:40 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 15:29:40 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 15:29:40 -0400
+
+
+Started GET "/assets/application-38157071f3b978f57526663e1a720b55.js?body=1" for ::1 at 2015-04-28 15:29:40 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 15:29:40 -0400
+
+
+Started GET "/professors/264" for ::1 at 2015-04-28 15:29:48 -0400
+Processing by ProfessorsController#show as HTML
+  Parameters: {"id"=>"264"}
+  [1m[35mProfessor Load (0.1ms)[0m  SELECT  "professors".* FROM "professors" WHERE "professors"."id" = ? LIMIT 1  [["id", 264]]
+  [1m[36mReview Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "reviews" WHERE "reviews"."professor_id" = ? LIMIT 1[0m  [["professor_id", 264]]
+  [1m[35mReview Load (0.1ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."professor_id" = ?  ORDER BY "reviews"."created_at" DESC  [["professor_id", 264]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "reviews" WHERE "reviews"."professor_id" = ?[0m  [["professor_id", 264]]
+  [1m[35mReview Load (0.2ms)[0m  SELECT  "reviews".* FROM "reviews" WHERE "reviews"."professor_id" = ?  ORDER BY "reviews"."created_at" DESC LIMIT 30 OFFSET 0  [["professor_id", 264]]
+  Rendered reviews/_review.html.erb (0.8ms)
+  Rendered professors/show.html.erb within layouts/application (11.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 263ms (Views: 259.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 15:29:48 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for ::1 at 2015-04-28 15:29:48 -0400
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 15:29:48 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 15:29:48 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 15:29:48 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-28 15:29:48 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 15:29:48 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-28 15:29:48 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for ::1 at 2015-04-28 15:29:48 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-04-28 15:29:48 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 15:29:48 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for ::1 at 2015-04-28 15:29:48 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 15:29:48 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 15:29:48 -0400
+
+
+Started GET "/assets/application-38157071f3b978f57526663e1a720b55.js?body=1" for ::1 at 2015-04-28 15:29:48 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 15:29:48 -0400

@@ -13,12 +13,12 @@
 
   <div class="col-md-8">
     <% if @professor.reviews.any? %>
-      <h3>Average Availability (<%= @professor.avg_avail %>)</h3>
-      <h3>Average Responsiveness (<%= @professor.avg_resp %>)</h3>
-      <h3>Average Knowledge (<%= @professor.avg_know %>)</h3>
-      <h3>Average Organization (<%= @professor.avg_org %>)</h3>
-      <h3>Average Friendliness (<%= @professor.avg_friend %>)</h3>
-      <h3>Average Helpfulness (<%= @professor.avg_help %>)</h3>
+      <h3>Average Availability (<%= '%.2f' % @professor.avg_avail %>)</h3>
+      <h3>Average Responsiveness (<%= '%.2f' % @professor.avg_resp %>)</h3>
+      <h3>Average Knowledge (<%= '%.2f' % @professor.avg_know %>)</h3>
+      <h3>Average Organization (<%= '%.2f' % @professor.avg_org %>)</h3>
+      <h3>Average Friendliness (<%= '%.2f' % @professor.avg_friend %>)</h3>
+      <h3>Average Helpfulness (<%='%.2f' %  @professor.avg_help %>)</h3>
       <h3>Comments (<%= @professor.reviews.count %>)</h3>
       <ul class="reviews">
         <%= render @reviews %>
