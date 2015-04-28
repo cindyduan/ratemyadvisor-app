@@ -35767,3 +35767,960 @@ Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" fo
 
 
 Started GET "/assets/application-38157071f3b978f57526663e1a720b55.js?body=1" for ::1 at 2015-04-28 13:20:03 -0400
+
+
+Started GET "/" for ::1 at 2015-04-28 13:26:42 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "fgiovann". Previous ticket "ST-24648-rTePwh9TjidBqMiReJdE-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (5.2ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 401ms (Views: 389.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:26:43 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for ::1 at 2015-04-28 13:26:43 -0400
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:26:43 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:26:43 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:26:43 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:26:43 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-28 13:26:43 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-28 13:26:43 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for ::1 at 2015-04-28 13:26:43 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-04-28 13:26:43 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for ::1 at 2015-04-28 13:26:43 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:26:43 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:26:43 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:26:43 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:26:43 -0400
+
+
+Started GET "/assets/application-38157071f3b978f57526663e1a720b55.js?body=1" for ::1 at 2015-04-28 13:26:43 -0400
+
+
+Started GET "/" for ::1 at 2015-04-28 13:26:45 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "fgiovann". Previous ticket "ST-24648-rTePwh9TjidBqMiReJdE-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 277ms (Views: 275.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:26:46 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:26:46 -0400
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:26:46 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for ::1 at 2015-04-28 13:26:46 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:26:46 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:26:46 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-28 13:26:46 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-28 13:26:46 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for ::1 at 2015-04-28 13:26:46 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-04-28 13:26:46 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for ::1 at 2015-04-28 13:26:46 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:26:46 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:26:46 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:26:46 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:26:46 -0400
+
+
+Started GET "/assets/application-38157071f3b978f57526663e1a720b55.js?body=1" for ::1 at 2015-04-28 13:26:46 -0400
+
+
+Started GET "/" for ::1 at 2015-04-28 13:27:04 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "fgiovann". Previous ticket "ST-24648-rTePwh9TjidBqMiReJdE-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 242ms (Views: 241.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:27:05 -0400
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:27:05 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:27:05 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:27:05 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:27:05 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for ::1 at 2015-04-28 13:27:05 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-28 13:27:05 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for ::1 at 2015-04-28 13:27:05 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-28 13:27:05 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for ::1 at 2015-04-28 13:27:05 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:27:05 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-04-28 13:27:05 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:27:05 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:27:05 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:27:05 -0400
+
+
+Started GET "/assets/application-38157071f3b978f57526663e1a720b55.js?body=1" for ::1 at 2015-04-28 13:27:05 -0400
+
+
+Started GET "/" for ::1 at 2015-04-28 13:27:08 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "fgiovann". Previous ticket "ST-24648-rTePwh9TjidBqMiReJdE-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 240ms (Views: 239.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:27:08 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:27:08 -0400
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:27:08 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:27:08 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:27:08 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-28 13:27:08 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for ::1 at 2015-04-28 13:27:08 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-28 13:27:08 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for ::1 at 2015-04-28 13:27:08 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-04-28 13:27:08 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for ::1 at 2015-04-28 13:27:08 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:27:08 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:27:08 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:27:08 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:27:08 -0400
+
+
+Started GET "/assets/application-38157071f3b978f57526663e1a720b55.js?body=1" for ::1 at 2015-04-28 13:27:08 -0400
+
+
+Started GET "/" for ::1 at 2015-04-28 13:27:18 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "fgiovann". Previous ticket "ST-24648-rTePwh9TjidBqMiReJdE-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 238ms (Views: 237.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:27:19 -0400
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:27:19 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:27:19 -0400
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:27:19 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:27:19 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for ::1 at 2015-04-28 13:27:19 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-28 13:27:19 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-28 13:27:19 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for ::1 at 2015-04-28 13:27:19 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-04-28 13:27:19 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for ::1 at 2015-04-28 13:27:19 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:27:19 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:27:19 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:27:19 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:27:19 -0400
+
+
+Started GET "/assets/application-38157071f3b978f57526663e1a720b55.js?body=1" for ::1 at 2015-04-28 13:27:19 -0400
+
+
+Started GET "/" for ::1 at 2015-04-28 13:27:39 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "fgiovann". Previous ticket "ST-24648-rTePwh9TjidBqMiReJdE-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 249ms (Views: 248.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:27:39 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:27:39 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:27:39 -0400
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:27:39 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:27:39 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for ::1 at 2015-04-28 13:27:39 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-28 13:27:39 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-28 13:27:39 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-04-28 13:27:39 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for ::1 at 2015-04-28 13:27:39 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for ::1 at 2015-04-28 13:27:39 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:27:39 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:27:39 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:27:39 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:27:39 -0400
+
+
+Started GET "/assets/application-38157071f3b978f57526663e1a720b55.js?body=1" for ::1 at 2015-04-28 13:27:39 -0400
+
+
+Started GET "/" for ::1 at 2015-04-28 13:30:07 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "fgiovann". Previous ticket "ST-24648-rTePwh9TjidBqMiReJdE-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 2070ms (Views: 2068.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:30:09 -0400
+
+
+Started GET "/assets/custom-2f6b0295bbae06aea670ad131efeaf1c.css?body=1" for ::1 at 2015-04-28 13:30:09 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:30:09 -0400
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:30:09 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for ::1 at 2015-04-28 13:30:09 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:30:09 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:30:09 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-28 13:30:09 -0400
+
+
+Started GET "/assets/application-a148e7d510c200d2d84f47c818ee8256.css?body=1" for ::1 at 2015-04-28 13:30:09 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-28 13:30:09 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for ::1 at 2015-04-28 13:30:09 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-04-28 13:30:09 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for ::1 at 2015-04-28 13:30:09 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:30:09 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:30:09 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:30:09 -0400
+
+
+Started GET "/assets/application-38157071f3b978f57526663e1a720b55.js?body=1" for ::1 at 2015-04-28 13:30:09 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:30:09 -0400
+
+
+Started GET "/" for ::1 at 2015-04-28 13:30:49 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "fgiovann". Previous ticket "ST-24648-rTePwh9TjidBqMiReJdE-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 2032ms (Views: 2031.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-73104319221b1c9fc75128e027f61264.css?body=1" for ::1 at 2015-04-28 13:30:51 -0400
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:30:51 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:30:51 -0400
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:30:51 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:30:51 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:30:51 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for ::1 at 2015-04-28 13:30:51 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-28 13:30:51 -0400
+
+
+Started GET "/assets/application-8763b20109d741b3b1ffaab007fd8104.css?body=1" for ::1 at 2015-04-28 13:30:51 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-28 13:30:51 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for ::1 at 2015-04-28 13:30:51 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-04-28 13:30:51 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for ::1 at 2015-04-28 13:30:51 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:30:51 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:30:51 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:30:51 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:30:51 -0400
+
+
+Started GET "/assets/application-38157071f3b978f57526663e1a720b55.js?body=1" for ::1 at 2015-04-28 13:30:51 -0400
+
+
+Started GET "/" for ::1 at 2015-04-28 13:31:00 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "fgiovann". Previous ticket "ST-24648-rTePwh9TjidBqMiReJdE-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 2106ms (Views: 2105.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-2600f81f31d0daf9b54ecb4e85a4648a.css?body=1" for ::1 at 2015-04-28 13:31:03 -0400
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:31:03 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:31:03 -0400
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:31:03 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:31:03 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:31:03 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for ::1 at 2015-04-28 13:31:03 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-28 13:31:03 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-28 13:31:03 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for ::1 at 2015-04-28 13:31:03 -0400
+
+
+Started GET "/assets/application-63386b2536f7bfdfd966b05f9ad4b2e5.css?body=1" for ::1 at 2015-04-28 13:31:03 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-04-28 13:31:03 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:31:03 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:31:03 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for ::1 at 2015-04-28 13:31:03 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:31:03 -0400
+
+
+Started GET "/assets/application-38157071f3b978f57526663e1a720b55.js?body=1" for ::1 at 2015-04-28 13:31:03 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:31:03 -0400
+
+
+Started GET "/" for ::1 at 2015-04-28 13:31:47 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "fgiovann". Previous ticket "ST-24648-rTePwh9TjidBqMiReJdE-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 2016ms (Views: 2015.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-1bb903c3eda8b29a218376ec84aa2a96.css?body=1" for ::1 at 2015-04-28 13:31:49 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:31:49 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:31:49 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:31:49 -0400
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:31:49 -0400
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:31:49 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for ::1 at 2015-04-28 13:31:49 -0400
+
+
+Started GET "/assets/application-5a6dae9c478355d829e1f0930caa29c2.css?body=1" for ::1 at 2015-04-28 13:31:49 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-28 13:31:49 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-28 13:31:49 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for ::1 at 2015-04-28 13:31:49 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-04-28 13:31:49 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for ::1 at 2015-04-28 13:31:49 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:31:49 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:31:49 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:31:49 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:31:49 -0400
+
+
+Started GET "/assets/application-38157071f3b978f57526663e1a720b55.js?body=1" for ::1 at 2015-04-28 13:31:49 -0400
+
+
+Started GET "/" for ::1 at 2015-04-28 13:38:49 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "fgiovann". Previous ticket "ST-24648-rTePwh9TjidBqMiReJdE-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 2047ms (Views: 2046.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:38:51 -0400
+
+
+Started GET "/assets/custom-1c75fbb74f87a4049d3e0b090914a436.css?body=1" for ::1 at 2015-04-28 13:38:51 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:38:51 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:38:51 -0400
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:38:51 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for ::1 at 2015-04-28 13:38:51 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:38:51 -0400
+
+
+Started GET "/assets/application-f1a294744e80492825f00bb40608d07d.css?body=1" for ::1 at 2015-04-28 13:38:51 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-28 13:38:51 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-28 13:38:51 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for ::1 at 2015-04-28 13:38:51 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-04-28 13:38:51 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for ::1 at 2015-04-28 13:38:51 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:38:51 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:38:51 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:38:51 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:38:51 -0400
+
+
+Started GET "/assets/application-38157071f3b978f57526663e1a720b55.js?body=1" for ::1 at 2015-04-28 13:38:51 -0400
+
+
+Started GET "/" for ::1 at 2015-04-28 13:39:39 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "fgiovann". Previous ticket "ST-24648-rTePwh9TjidBqMiReJdE-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 2027ms (Views: 2026.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-a5563c43eeb57c4fddd0c32e34d60ea9.css?body=1" for ::1 at 2015-04-28 13:39:41 -0400
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:39:41 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:39:41 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:39:41 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:39:41 -0400
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:39:41 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for ::1 at 2015-04-28 13:39:41 -0400
+
+
+Started GET "/assets/application-278b1df69c4c565b8a2d5fc5bafbeb24.css?body=1" for ::1 at 2015-04-28 13:39:41 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-28 13:39:41 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-28 13:39:41 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for ::1 at 2015-04-28 13:39:41 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-04-28 13:39:41 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for ::1 at 2015-04-28 13:39:41 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:39:41 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:39:41 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:39:41 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:39:41 -0400
+
+
+Started GET "/assets/application-38157071f3b978f57526663e1a720b55.js?body=1" for ::1 at 2015-04-28 13:39:41 -0400
+
+
+Started GET "/about" for ::1 at 2015-04-28 13:40:54 -0400
+Processing by StaticPagesController#about as HTML
+Existing local CAS session detected for "fgiovann". Previous ticket "ST-24648-rTePwh9TjidBqMiReJdE-fed05" will be re-used.
+  Rendered static_pages/about.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 282ms (Views: 279.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-04-28 13:40:57 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "fgiovann". Previous ticket "ST-24648-rTePwh9TjidBqMiReJdE-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 241ms (Views: 240.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-04-28 13:41:02 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "fgiovann". Previous ticket "ST-24648-rTePwh9TjidBqMiReJdE-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 230ms (Views: 228.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:41:03 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:41:03 -0400
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:41:03 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:41:03 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:41:03 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-28 13:41:03 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for ::1 at 2015-04-28 13:41:03 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-28 13:41:03 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for ::1 at 2015-04-28 13:41:03 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-04-28 13:41:03 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for ::1 at 2015-04-28 13:41:03 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:41:03 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:41:03 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:41:03 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:41:03 -0400
+
+
+Started GET "/assets/application-38157071f3b978f57526663e1a720b55.js?body=1" for ::1 at 2015-04-28 13:41:03 -0400
+
+
+Started GET "/about" for ::1 at 2015-04-28 13:41:08 -0400
+Processing by StaticPagesController#about as HTML
+Existing local CAS session detected for "fgiovann". Previous ticket "ST-24648-rTePwh9TjidBqMiReJdE-fed05" will be re-used.
+  Rendered static_pages/about.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 248ms (Views: 247.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-04-28 13:41:15 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "fgiovann". Previous ticket "ST-24648-rTePwh9TjidBqMiReJdE-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 238ms (Views: 236.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-04-28 13:41:19 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "fgiovann". Previous ticket "ST-24648-rTePwh9TjidBqMiReJdE-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 220ms (Views: 219.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:41:20 -0400
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:41:20 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:41:20 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:41:20 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for ::1 at 2015-04-28 13:41:20 -0400
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:41:20 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-28 13:41:20 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-04-28 13:41:20 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-28 13:41:20 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for ::1 at 2015-04-28 13:41:20 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for ::1 at 2015-04-28 13:41:20 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:41:20 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:41:20 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:41:20 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:41:20 -0400
+
+
+Started GET "/assets/application-38157071f3b978f57526663e1a720b55.js?body=1" for ::1 at 2015-04-28 13:41:20 -0400
+
+
+Started GET "/" for ::1 at 2015-04-28 13:42:52 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "fgiovann". Previous ticket "ST-24648-rTePwh9TjidBqMiReJdE-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 250ms (Views: 249.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:42:52 -0400
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:42:52 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:42:52 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for ::1 at 2015-04-28 13:42:52 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:42:52 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-28 13:42:52 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-28 13:42:52 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-28 13:42:52 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for ::1 at 2015-04-28 13:42:52 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for ::1 at 2015-04-28 13:42:52 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for ::1 at 2015-04-28 13:42:52 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:42:52 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:42:52 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:42:52 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-28 13:42:52 -0400
+
+
+Started GET "/assets/application-38157071f3b978f57526663e1a720b55.js?body=1" for ::1 at 2015-04-28 13:42:52 -0400
+
+
+Started GET "/reviews/new" for ::1 at 2015-04-28 13:43:14 -0400
+Processing by ReviewsController#new as HTML
+  Rendered shared/_error_messages.html.erb (4.1ms)
+  Rendered reviews/new.html.erb within layouts/application (35.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 369ms (Views: 346.4ms | ActiveRecord: 0.4ms)
