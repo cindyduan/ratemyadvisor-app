@@ -3,16 +3,14 @@
     <%= link_to "RateMyAdvisor", root_path, id: "logo" %>
     
       <%= form_tag professors_path, class: "form-inline", method: :get do %>
-      <div class="input-group input-group-lg" >
-	       <%= text_field_tag :query, params[:query], class: "form-control", id: "professor_search", autocomplete: "off" %>
-	       <div class="input-group-btn">
-	         <%= submit_tag "Search", class: "btn btn-custom" %>
-	       </div>
+      <div class="input-group input-group-sm" >
+      <%= text_field_tag :query, params[:query], class: "form-control", id: "professor_search", autocomplete: "off", :size => 50 %>
+      <div class="input-group-btn">
+	<%= submit_tag "Search", class: "btn btn-custom" %>
+      </div>
 
          <nav>
       <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to "Home", root_path, id: "home_button"%></li>
-        <li><%= link_to "About", about_path, id: "about_button"%></li>
   <li><%= link_to "Find an advisor", find_path, id: "find_button"%></li>
   <li><%= link_to "Rate an advisor", new_review_path, id: "rate_button"%></li>
         <li><%= link_to "Log out", logout_path, id: "logout_button"%></li>
