@@ -82,8 +82,8 @@ p {
 
 #logo {
   float: left;
-  margin-left: 0px;
-  margin-right: 10px;
+  margin-left: 50px;
+  margin-right: -50px;
   font-size: 1.7em;
   color: orange;
   text-transform: uppercase;
@@ -96,20 +96,8 @@ p {
   }
 }
 
-#home_button {
-  color: orange;
-  &:hover {
-    color: white;
-    text-decoration: none;
-  }
-}
-
-#about_button {
-  color: orange;
-  &:hover {
-    color: white;
-    text-decoration: none;
-  }
+.navigation_bar {
+  margin-left: 50px;
 }
 
 #find_button {

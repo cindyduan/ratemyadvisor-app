@@ -45430,3 +45430,3641 @@ Existing local CAS session detected for "cxduan". Previous ticket "ST-26912-MWcC
   Rendered layouts/_header.html.erb (0.9ms)
   Rendered layouts/_footer.html.erb (0.1ms)
 Completed 200 OK in 381ms (Views: 379.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/reviews/new" for 127.0.0.1 at 2015-04-28 20:17:11 -0400
+Processing by ReviewsController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered reviews/new.html.erb within layouts/application (22.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 401ms (Views: 399.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/find" for 127.0.0.1 at 2015-04-28 20:17:13 -0400
+Processing by SearchsController#new as HTML
+  Rendered searchs/new.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 319ms (Views: 318.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/reviews/new" for 127.0.0.1 at 2015-04-28 20:17:16 -0400
+Processing by ReviewsController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered reviews/new.html.erb within layouts/application (34.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 336ms (Views: 334.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/find" for 127.0.0.1 at 2015-04-28 20:17:48 -0400
+Processing by SearchsController#new as HTML
+  Rendered searchs/new.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 359ms (Views: 357.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/reviews/new" for 127.0.0.1 at 2015-04-28 20:17:50 -0400
+Processing by ReviewsController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered reviews/new.html.erb within layouts/application (23.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 337ms (Views: 335.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/reviews/new" for 127.0.0.1 at 2015-04-28 20:21:53 -0400
+Processing by ReviewsController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered reviews/new.html.erb within layouts/application (120.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (2.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 675ms (Views: 667.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-ed10248752afc356afca7a756d43a1d1.css?body=1" for 127.0.0.1 at 2015-04-28 20:21:54 -0400
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:21:54 -0400
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:21:54 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for 127.0.0.1 at 2015-04-28 20:21:54 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:21:54 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:21:54 -0400
+
+
+Started GET "/assets/application-a87943a3818ae29a941ace83153cfbf9.css?body=1" for 127.0.0.1 at 2015-04-28 20:21:54 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:21:54 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:21:54 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:21:54 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:21:54 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:21:54 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:21:54 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:21:54 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:21:54 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:21:54 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:21:54 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:21:54 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:21:54 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:21:54 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:21:54 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:21:54 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:21:55 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:21:55 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:21:55 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:21:55 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:21:55 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:21:55 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:21:55 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:21:55 -0400
+
+
+Started GET "/reviews/new" for 127.0.0.1 at 2015-04-28 20:22:18 -0400
+Processing by ReviewsController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.2ms)
+  Rendered reviews/new.html.erb within layouts/application (68.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (2.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 769ms (Views: 767.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-ed10248752afc356afca7a756d43a1d1.css?body=1" for 127.0.0.1 at 2015-04-28 20:22:19 -0400
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:22:19 -0400
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:22:19 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:22:19 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:22:19 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:22:19 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for 127.0.0.1 at 2015-04-28 20:22:19 -0400
+
+
+Started GET "/assets/application-a87943a3818ae29a941ace83153cfbf9.css?body=1" for 127.0.0.1 at 2015-04-28 20:22:19 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:22:19 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:22:19 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:22:19 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:22:19 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:22:19 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:22:19 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:22:19 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:22:19 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:22:19 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:22:19 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:22:19 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:22:19 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:22:19 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:22:19 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:22:19 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:22:19 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:22:19 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:22:19 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:22:19 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:22:19 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:22:19 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:22:19 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-28 20:22:23 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "cxduan". Previous ticket "ST-26912-MWcCCT3JaVc0B7BpqR4w-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (22.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 313ms (Views: 311.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Aplus-a53151e83afd62814fe3f875a98674a4.png" for 127.0.0.1 at 2015-04-28 20:22:24 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-28 20:22:33 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "cxduan". Previous ticket "ST-26912-MWcCCT3JaVc0B7BpqR4w-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (4.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 898ms (Views: 896.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-ed10248752afc356afca7a756d43a1d1.css?body=1" for 127.0.0.1 at 2015-04-28 20:22:34 -0400
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:22:34 -0400
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:22:34 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:22:34 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:22:34 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:22:35 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for 127.0.0.1 at 2015-04-28 20:22:35 -0400
+
+
+Started GET "/assets/application-a87943a3818ae29a941ace83153cfbf9.css?body=1" for 127.0.0.1 at 2015-04-28 20:22:35 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:22:35 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:22:35 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:22:35 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:22:35 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:22:35 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:22:35 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:22:35 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:22:35 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:22:35 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:22:35 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:22:35 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:22:35 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:22:35 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:22:35 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:22:35 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:22:35 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:22:35 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:22:35 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:22:35 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:22:35 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:22:35 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:22:35 -0400
+
+
+Started GET "/assets/Aplus-a53151e83afd62814fe3f875a98674a4.png" for 127.0.0.1 at 2015-04-28 20:22:35 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-28 20:23:21 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "cxduan". Previous ticket "ST-26912-MWcCCT3JaVc0B7BpqR4w-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (15.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 671ms (Views: 665.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-ed10248752afc356afca7a756d43a1d1.css?body=1" for 127.0.0.1 at 2015-04-28 20:23:21 -0400
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:23:21 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for 127.0.0.1 at 2015-04-28 20:23:21 -0400
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:23:21 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:23:21 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:23:21 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:23:21 -0400
+
+
+Started GET "/assets/application-a87943a3818ae29a941ace83153cfbf9.css?body=1" for 127.0.0.1 at 2015-04-28 20:23:21 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:23:22 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:23:22 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:23:22 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:23:22 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:23:22 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:23:22 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:23:22 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:23:22 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:23:22 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:23:22 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:23:22 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:23:22 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:23:22 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:23:22 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:23:22 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:23:22 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:23:22 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:23:22 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:23:22 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:23:22 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:23:22 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:23:22 -0400
+
+
+Started GET "/assets/Aplus-a53151e83afd62814fe3f875a98674a4.png" for 127.0.0.1 at 2015-04-28 20:23:22 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-28 20:24:06 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "cxduan". Previous ticket "ST-26912-MWcCCT3JaVc0B7BpqR4w-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 5115ms (Views: 5108.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-955f6b78401ac9a935a83a1f59b397e0.css?body=1" for 127.0.0.1 at 2015-04-28 20:24:12 -0400
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:24:12 -0400
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:24:12 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:24:12 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:24:12 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:24:12 -0400
+
+
+Started GET "/assets/application-b8996ce847b6c8b60238595040d7c4bf.css?body=1" for 127.0.0.1 at 2015-04-28 20:24:12 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for 127.0.0.1 at 2015-04-28 20:24:12 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:12 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:12 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:12 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:12 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:12 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:12 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:12 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:12 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:12 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:12 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:12 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:12 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:12 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:12 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:12 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:12 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:12 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:12 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:12 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:12 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:13 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:13 -0400
+
+
+Started GET "/assets/Aplus-a53151e83afd62814fe3f875a98674a4.png" for 127.0.0.1 at 2015-04-28 20:24:13 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-28 20:24:25 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "cxduan". Previous ticket "ST-26912-MWcCCT3JaVc0B7BpqR4w-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 5144ms (Views: 5135.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-ed10248752afc356afca7a756d43a1d1.css?body=1" for 127.0.0.1 at 2015-04-28 20:24:30 -0400
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:24:30 -0400
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:24:30 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:24:30 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:24:30 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:24:30 -0400
+
+
+Started GET "/assets/application-a87943a3818ae29a941ace83153cfbf9.css?body=1" for 127.0.0.1 at 2015-04-28 20:24:30 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:30 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:30 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:30 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for 127.0.0.1 at 2015-04-28 20:24:30 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:30 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:30 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:30 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:30 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:30 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:30 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:30 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:31 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:31 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:31 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:31 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:31 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:31 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:31 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:31 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:31 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:31 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:31 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:31 -0400
+
+
+Started GET "/assets/Aplus-a53151e83afd62814fe3f875a98674a4.png" for 127.0.0.1 at 2015-04-28 20:24:31 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-28 20:24:38 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "cxduan". Previous ticket "ST-26912-MWcCCT3JaVc0B7BpqR4w-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 5432ms (Views: 5427.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-ef239cc40c8ee2192690aeebe24446b0.css?body=1" for 127.0.0.1 at 2015-04-28 20:24:43 -0400
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:24:43 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:24:43 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:24:43 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:24:43 -0400
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:24:43 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:43 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for 127.0.0.1 at 2015-04-28 20:24:43 -0400
+
+
+Started GET "/assets/application-24237f7513a6c8d819156e07890ddd72.css?body=1" for 127.0.0.1 at 2015-04-28 20:24:43 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:43 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:43 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:43 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:43 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:43 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:43 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:43 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:43 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:44 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:44 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:44 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:44 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:44 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:44 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:44 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:44 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:44 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:44 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:44 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:44 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:24:44 -0400
+
+
+Started GET "/assets/Aplus-a53151e83afd62814fe3f875a98674a4.png" for 127.0.0.1 at 2015-04-28 20:24:44 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-28 20:24:58 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "cxduan". Previous ticket "ST-26912-MWcCCT3JaVc0B7BpqR4w-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 4854ms (Views: 4850.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-842f81e425801e7e9f8f0cfe6fd8a54b.css?body=1" for 127.0.0.1 at 2015-04-28 20:25:03 -0400
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:25:03 -0400
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:25:03 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:25:03 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:25:03 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:25:03 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for 127.0.0.1 at 2015-04-28 20:25:03 -0400
+
+
+Started GET "/assets/application-a17d92101404dfdc466063872bcaf879.css?body=1" for 127.0.0.1 at 2015-04-28 20:25:03 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:04 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:04 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:04 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:04 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:04 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:04 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:04 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:04 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:04 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:04 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:04 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:04 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:04 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:04 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:04 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:04 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:04 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:04 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:04 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:04 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:04 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:04 -0400
+
+
+Started GET "/assets/Aplus-a53151e83afd62814fe3f875a98674a4.png" for 127.0.0.1 at 2015-04-28 20:25:04 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-28 20:25:14 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "cxduan". Previous ticket "ST-26912-MWcCCT3JaVc0B7BpqR4w-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (4.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 5494ms (Views: 5487.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-4d7f276ebd019ccba46cfdcdffad47b4.css?body=1" for 127.0.0.1 at 2015-04-28 20:25:20 -0400
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:25:20 -0400
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:25:20 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:25:20 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:25:20 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for 127.0.0.1 at 2015-04-28 20:25:20 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:20 -0400
+
+
+Started GET "/assets/application-f5a2435488bbab424d3e8e5f072ebfe2.css?body=1" for 127.0.0.1 at 2015-04-28 20:25:20 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:20 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:20 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:20 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:20 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:20 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:20 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:20 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:20 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:20 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:20 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:25:20 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:21 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:21 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:21 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:21 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:21 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:21 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:21 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:21 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:21 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:21 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:21 -0400
+
+
+Started GET "/assets/Aplus-a53151e83afd62814fe3f875a98674a4.png" for 127.0.0.1 at 2015-04-28 20:25:21 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-28 20:25:49 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "cxduan". Previous ticket "ST-26912-MWcCCT3JaVc0B7BpqR4w-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 5004ms (Views: 5000.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-d5a7580b6acd7ed146582a9a552029f4.css?body=1" for 127.0.0.1 at 2015-04-28 20:25:54 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:25:54 -0400
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:25:54 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:25:54 -0400
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:25:54 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:25:54 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for 127.0.0.1 at 2015-04-28 20:25:54 -0400
+
+
+Started GET "/assets/application-8a0427449f543d9f113b3722c8fd16b6.css?body=1" for 127.0.0.1 at 2015-04-28 20:25:54 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:54 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:54 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:54 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:54 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:54 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:55 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:55 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:55 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:55 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:55 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:55 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:55 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:55 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:55 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:55 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:55 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:55 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:55 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:55 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:55 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:55 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:25:55 -0400
+
+
+Started GET "/assets/Aplus-a53151e83afd62814fe3f875a98674a4.png" for 127.0.0.1 at 2015-04-28 20:25:55 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-28 20:27:32 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "cxduan". Previous ticket "ST-26912-MWcCCT3JaVc0B7BpqR4w-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (2.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 612ms (Views: 604.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-d5a7580b6acd7ed146582a9a552029f4.css?body=1" for 127.0.0.1 at 2015-04-28 20:27:33 -0400
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:27:33 -0400
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:27:33 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for 127.0.0.1 at 2015-04-28 20:27:33 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:27:33 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:27:33 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:27:33 -0400
+
+
+Started GET "/assets/application-8a0427449f543d9f113b3722c8fd16b6.css?body=1" for 127.0.0.1 at 2015-04-28 20:27:33 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:27:33 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:27:33 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:27:33 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:27:33 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:27:33 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:27:33 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:27:33 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:27:33 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:27:33 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:27:33 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:27:33 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:27:33 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:27:33 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:27:33 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:27:33 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:27:33 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:27:33 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:27:33 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:27:33 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:27:33 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:27:33 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:27:34 -0400
+
+
+Started GET "/assets/Aplus-a53151e83afd62814fe3f875a98674a4.png" for 127.0.0.1 at 2015-04-28 20:27:34 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-28 20:28:01 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "cxduan". Previous ticket "ST-26912-MWcCCT3JaVc0B7BpqR4w-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (7.3ms)
+  Rendered layouts/_header.html.erb (3.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 651ms (Views: 649.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-d5a7580b6acd7ed146582a9a552029f4.css?body=1" for 127.0.0.1 at 2015-04-28 20:28:02 -0400
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:28:02 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:28:02 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:28:02 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:28:02 -0400
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:28:02 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for 127.0.0.1 at 2015-04-28 20:28:02 -0400
+
+
+Started GET "/assets/application-8a0427449f543d9f113b3722c8fd16b6.css?body=1" for 127.0.0.1 at 2015-04-28 20:28:02 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:28:02 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:28:02 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:28:02 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:28:02 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:28:02 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:28:02 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:28:02 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:28:02 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:28:02 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:28:02 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:28:02 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:28:02 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:28:03 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:28:03 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:28:03 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:28:03 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:28:03 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:28:03 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:28:03 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:28:03 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:28:03 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:28:03 -0400
+
+
+Started GET "/assets/Aplus-a53151e83afd62814fe3f875a98674a4.png" for 127.0.0.1 at 2015-04-28 20:28:03 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-28 20:31:52 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "cxduan". Previous ticket "ST-26912-MWcCCT3JaVc0B7BpqR4w-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (6.9ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 4492ms (Views: 4490.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-58fe0a2e651f8205a81cab79d9d21a58.css?body=1" for 127.0.0.1 at 2015-04-28 20:31:57 -0400
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:31:57 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:31:57 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:31:57 -0400
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:31:57 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:31:57 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:31:57 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for 127.0.0.1 at 2015-04-28 20:31:57 -0400
+
+
+Started GET "/assets/application-c738239b1313d28609e812f051f92240.css?body=1" for 127.0.0.1 at 2015-04-28 20:31:57 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:31:57 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:31:57 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:31:57 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:31:57 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:31:57 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:31:57 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:31:57 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:31:57 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:31:57 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:31:57 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:31:57 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:31:57 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:31:57 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:31:57 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:31:58 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:31:58 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:31:58 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:31:58 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:31:58 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:31:58 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:31:58 -0400
+
+
+Started GET "/assets/Aplus-a53151e83afd62814fe3f875a98674a4.png" for 127.0.0.1 at 2015-04-28 20:31:58 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-28 20:33:06 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "cxduan". Previous ticket "ST-26912-MWcCCT3JaVc0B7BpqR4w-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 685ms (Views: 682.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-58fe0a2e651f8205a81cab79d9d21a58.css?body=1" for 127.0.0.1 at 2015-04-28 20:33:06 -0400
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:33:06 -0400
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:33:06 -0400
+
+
+Started GET "/assets/application-c738239b1313d28609e812f051f92240.css?body=1" for 127.0.0.1 at 2015-04-28 20:33:06 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for 127.0.0.1 at 2015-04-28 20:33:07 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:33:07 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:33:07 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:33:07 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:33:07 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:33:07 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:33:07 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:33:07 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:33:07 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:33:07 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:33:07 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:33:07 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:33:07 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:33:07 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:33:07 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:33:07 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:33:07 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:33:07 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:33:07 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:33:07 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:33:07 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:33:07 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:33:07 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:33:07 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:33:07 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:33:07 -0400
+
+
+Started GET "/assets/Aplus-a53151e83afd62814fe3f875a98674a4.png" for 127.0.0.1 at 2015-04-28 20:33:07 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-28 20:37:45 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "cxduan". Previous ticket "ST-26912-MWcCCT3JaVc0B7BpqR4w-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (838.0ms)
+Completed 500 Internal Server Error in 1472ms
+
+NameError (undefined local variable or method `bottom' for #<#<Class:0x007f4aeb93d0b8>:0x007f4aeafb7f48>):
+  app/views/layouts/_header.html.erb:7:in `block in _app_views_layouts__header_html_erb___1477854832619070338_69979559410540'
+  app/views/layouts/_header.html.erb:5:in `_app_views_layouts__header_html_erb___1477854832619070338_69979559410540'
+  app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb___3732058123043216175_69979878065240'
+
+
+  Rendered /home/cindy/.gem/ruby/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (29.5ms)
+  Rendered /home/cindy/.gem/ruby/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (13.4ms)
+  Rendered /home/cindy/.gem/ruby/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.7ms)
+  Rendered /home/cindy/.gem/ruby/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.8ms)
+  Rendered /home/cindy/.gem/ruby/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (175.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-28 20:38:29 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "cxduan". Previous ticket "ST-26912-MWcCCT3JaVc0B7BpqR4w-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (4.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 675ms (Views: 671.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:38:30 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:38:30 -0400
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:38:30 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:38:30 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:38:30 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:38:30 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for 127.0.0.1 at 2015-04-28 20:38:30 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:38:30 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:38:30 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:38:30 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:38:30 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:38:30 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:38:30 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:38:30 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:38:30 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:38:30 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:38:31 -0400
+
+
+Started GET "/assets/custom-58fe0a2e651f8205a81cab79d9d21a58.css?body=1" for 127.0.0.1 at 2015-04-28 20:38:31 -0400
+
+
+Started GET "/assets/application-c738239b1313d28609e812f051f92240.css?body=1" for 127.0.0.1 at 2015-04-28 20:38:31 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:38:31 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:38:31 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:38:31 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:38:31 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:38:31 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:38:31 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:38:31 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:38:31 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:38:31 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:38:31 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:38:31 -0400
+
+
+Started GET "/find" for 127.0.0.1 at 2015-04-28 20:38:50 -0400
+Processing by SearchsController#new as HTML
+  Rendered searchs/new.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (2.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 358ms (Views: 337.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/reviews/new" for 127.0.0.1 at 2015-04-28 20:38:52 -0400
+Processing by ReviewsController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered reviews/new.html.erb within layouts/application (25.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 665ms (Views: 663.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/find" for 127.0.0.1 at 2015-04-28 20:38:57 -0400
+Processing by SearchsController#new as HTML
+  Rendered searchs/new.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 386ms (Views: 385.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-28 20:38:59 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "cxduan". Previous ticket "ST-26912-MWcCCT3JaVc0B7BpqR4w-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 278ms (Views: 276.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/find" for 127.0.0.1 at 2015-04-28 20:39:04 -0400
+Processing by SearchsController#new as HTML
+  Rendered searchs/new.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 380ms (Views: 379.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/reviews/new" for 127.0.0.1 at 2015-04-28 20:39:06 -0400
+Processing by ReviewsController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered reviews/new.html.erb within layouts/application (27.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 316ms (Views: 314.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/find" for 127.0.0.1 at 2015-04-28 20:39:12 -0400
+Processing by SearchsController#new as HTML
+  Rendered searchs/new.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 406ms (Views: 404.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-28 20:39:15 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "cxduan". Previous ticket "ST-26912-MWcCCT3JaVc0B7BpqR4w-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (5.9ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 271ms (Views: 269.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/professors/autocomplete?query=fe" for 127.0.0.1 at 2015-04-28 20:42:16 -0400
+Processing by ProfessorsController#autocomplete as JSON
+  Parameters: {"query"=>"fe"}
+  [1m[33mProfessor Search (197.0ms)[0m  curl http://localhost:9200/professors_development/_search?pretty -d '{"query":{"multi_match":{"fields":["first_name.autocomplete","last_name.autocomplete","netid.autocomplete","department.autocomplete"],"query":"fe","analyzer":"searchkick_autocomplete_search"}},"size":10,"from":0,"fields":[]}'
+  [1m[36mProfessor Load (30.8ms)[0m  [1mSELECT "professors".* FROM "professors" WHERE "professors"."id" IN (150, 184, 241, 595, 867, 147, 200, 550, 865)[0m
+Completed 200 OK in 235ms (Views: 0.5ms | Searchkick: 197.0ms | ActiveRecord: 30.8ms)
+
+
+Started GET "/professors/autocomplete?query=f" for 127.0.0.1 at 2015-04-28 20:42:17 -0400
+Processing by ProfessorsController#autocomplete as JSON
+  Parameters: {"query"=>"f"}
+  [1m[33mProfessor Search (79.2ms)[0m  curl http://localhost:9200/professors_development/_search?pretty -d '{"query":{"multi_match":{"fields":["first_name.autocomplete","last_name.autocomplete","netid.autocomplete","department.autocomplete"],"query":"f","analyzer":"searchkick_autocomplete_search"}},"size":10,"from":0,"fields":[]}'
+  [1m[35mProfessor Load (0.4ms)[0m  SELECT "professors".* FROM "professors" WHERE "professors"."id" IN (260, 682, 878, 256, 101, 786, 63, 804, 35, 953)
+Completed 200 OK in 86ms (Views: 0.3ms | Searchkick: 79.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-28 20:42:41 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "cxduan". Previous ticket "ST-26912-MWcCCT3JaVc0B7BpqR4w-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 641ms (Views: 640.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:42:42 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:42:42 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:42:42 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for 127.0.0.1 at 2015-04-28 20:42:42 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:42:42 -0400
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:42:42 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:42:42 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:42:42 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:42:42 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:42:42 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:42:42 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:42:42 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:42:42 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:42:42 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:42:42 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:42:42 -0400
+
+
+Started GET "/assets/custom-58fe0a2e651f8205a81cab79d9d21a58.css?body=1" for 127.0.0.1 at 2015-04-28 20:42:42 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:42:42 -0400
+
+
+Started GET "/assets/application-c738239b1313d28609e812f051f92240.css?body=1" for 127.0.0.1 at 2015-04-28 20:42:42 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:42:43 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:42:43 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:42:43 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:42:43 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:42:43 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:42:43 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:42:43 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:42:43 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:42:43 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:42:43 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:42:43 -0400
+
+
+Started GET "/assets/Aplus-a53151e83afd62814fe3f875a98674a4.png" for 127.0.0.1 at 2015-04-28 20:42:43 -0400
+
+
+Started GET "/professors/autocomplete?query=F" for 127.0.0.1 at 2015-04-28 20:42:49 -0400
+Processing by ProfessorsController#autocomplete as JSON
+  Parameters: {"query"=>"F"}
+  [1m[33mProfessor Search (213.5ms)[0m  curl http://localhost:9200/professors_development/_search?pretty -d '{"query":{"multi_match":{"fields":["first_name.autocomplete","last_name.autocomplete","netid.autocomplete","department.autocomplete"],"query":"F","analyzer":"searchkick_autocomplete_search"}},"size":10,"from":0,"fields":[]}'
+  [1m[36mProfessor Load (0.8ms)[0m  [1mSELECT "professors".* FROM "professors" WHERE "professors"."id" IN (260, 682, 878, 256, 101, 786, 63, 804, 35, 953)[0m
+Completed 200 OK in 239ms (Views: 0.4ms | Searchkick: 213.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-28 20:42:57 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "cxduan". Previous ticket "ST-26912-MWcCCT3JaVc0B7BpqR4w-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 755ms (Views: 752.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:42:58 -0400
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:42:58 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:42:58 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:42:58 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for 127.0.0.1 at 2015-04-28 20:42:58 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:42:58 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:42:58 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:42:58 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:42:58 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:42:58 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:42:58 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:42:58 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:42:58 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:42:58 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:42:58 -0400
+
+
+Started GET "/assets/custom-58fe0a2e651f8205a81cab79d9d21a58.css?body=1" for 127.0.0.1 at 2015-04-28 20:42:58 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:42:58 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:42:58 -0400
+
+
+Started GET "/assets/application-c738239b1313d28609e812f051f92240.css?body=1" for 127.0.0.1 at 2015-04-28 20:42:58 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:42:58 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:42:59 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:42:59 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:42:59 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:42:59 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:42:59 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:42:59 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:42:59 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:42:59 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:42:59 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:42:59 -0400
+
+
+Started GET "/assets/Aplus-a53151e83afd62814fe3f875a98674a4.png" for 127.0.0.1 at 2015-04-28 20:42:59 -0400
+
+
+Started GET "/professors/autocomplete?query=f" for 127.0.0.1 at 2015-04-28 20:43:02 -0400
+Processing by ProfessorsController#autocomplete as JSON
+  Parameters: {"query"=>"f"}
+  [1m[33mProfessor Search (154.9ms)[0m  curl http://localhost:9200/professors_development/_search?pretty -d '{"query":{"multi_match":{"fields":["first_name.autocomplete","last_name.autocomplete","netid.autocomplete","department.autocomplete"],"query":"f","analyzer":"searchkick_autocomplete_search"}},"size":10,"from":0,"fields":[]}'
+  [1m[35mProfessor Load (0.6ms)[0m  SELECT "professors".* FROM "professors" WHERE "professors"."id" IN (260, 682, 878, 256, 101, 786, 63, 804, 35, 953)
+Completed 200 OK in 191ms (Views: 0.6ms | Searchkick: 154.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/professors/autocomplete?query=Faruk%20Gul%20fgul%20Economics" for 127.0.0.1 at 2015-04-28 20:43:37 -0400
+Processing by ProfessorsController#autocomplete as JSON
+  Parameters: {"query"=>"Faruk Gul fgul Economics"}
+  [1m[33mProfessor Search (50.9ms)[0m  curl http://localhost:9200/professors_development/_search?pretty -d '{"query":{"multi_match":{"fields":["first_name.autocomplete","last_name.autocomplete","netid.autocomplete","department.autocomplete"],"query":"Faruk Gul fgul Economics","analyzer":"searchkick_autocomplete_search"}},"size":10,"from":0,"fields":[]}'
+Completed 200 OK in 53ms (Views: 0.2ms | Searchkick: 50.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/professors?utf8=%E2%9C%93&query=Faruk+Gul+fgul+Economics&commit=Search" for 127.0.0.1 at 2015-04-28 20:43:41 -0400
+Processing by ProfessorsController#index as HTML
+  Parameters: {"utf8"=>"✓", "query"=>"Faruk Gul fgul Economics", "commit"=>"Search"}
+  [1m[33mProfessor Search (1770.9ms)[0m  curl http://localhost:9200/professors_development/_search?pretty -d '{"query":{"dis_max":{"queries":[{"match":{"first_name.analyzed":{"query":"Faruk Gul fgul Economics","operator":"and","boost":10,"analyzer":"searchkick_search"}}},{"match":{"first_name.analyzed":{"query":"Faruk Gul fgul Economics","operator":"and","boost":10,"analyzer":"searchkick_search2"}}},{"match":{"first_name.analyzed":{"query":"Faruk Gul fgul Economics","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search"}}},{"match":{"first_name.analyzed":{"query":"Faruk Gul fgul Economics","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search2"}}},{"match":{"last_name.analyzed":{"query":"Faruk Gul fgul Economics","operator":"and","boost":10,"analyzer":"searchkick_search"}}},{"match":{"last_name.analyzed":{"query":"Faruk Gul fgul Economics","operator":"and","boost":10,"analyzer":"searchkick_search2"}}},{"match":{"last_name.analyzed":{"query":"Faruk Gul fgul Economics","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search"}}},{"match":{"last_name.analyzed":{"query":"Faruk Gul fgul Economics","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search2"}}},{"match":{"netid.analyzed":{"query":"Faruk Gul fgul Economics","operator":"and","boost":10,"analyzer":"searchkick_search"}}},{"match":{"netid.analyzed":{"query":"Faruk Gul fgul Economics","operator":"and","boost":10,"analyzer":"searchkick_search2"}}},{"match":{"netid.analyzed":{"query":"Faruk Gul fgul Economics","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search"}}},{"match":{"netid.analyzed":{"query":"Faruk Gul fgul Economics","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search2"}}},{"match":{"department.analyzed":{"query":"Faruk Gul fgul Economics","operator":"and","boost":10,"analyzer":"searchkick_search"}}},{"match":{"department.analyzed":{"query":"Faruk Gul fgul Economics","operator":"and","boost":10,"analyzer":"searchkick_search2"}}},{"match":{"department.analyzed":{"query":"Faruk Gul fgul Economics","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search"}}},{"match":{"department.analyzed":{"query":"Faruk Gul fgul Economics","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search2"}}}]}},"size":100000,"from":0,"fields":[]}'
+  Rendered professors/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 2503ms (Views: 725.6ms | Searchkick: 1770.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:43:43 -0400
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:43:43 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:43:43 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:43:43 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:43:43 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:43:43 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for 127.0.0.1 at 2015-04-28 20:43:43 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:43:43 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:43:43 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:43:43 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:43:43 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:43:43 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:43:43 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:43:43 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:43:43 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:43:44 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:43:44 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:43:44 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:43:44 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:43:44 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:43:44 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:43:44 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:43:44 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:43:44 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:43:44 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:43:44 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:43:44 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:43:44 -0400
+
+
+Started GET "/professors/autocomplete?query=Faruk" for 127.0.0.1 at 2015-04-28 20:43:50 -0400
+Processing by ProfessorsController#autocomplete as JSON
+  Parameters: {"query"=>"Faruk"}
+  [1m[33mProfessor Search (154.0ms)[0m  curl http://localhost:9200/professors_development/_search?pretty -d '{"query":{"multi_match":{"fields":["first_name.autocomplete","last_name.autocomplete","netid.autocomplete","department.autocomplete"],"query":"Faruk","analyzer":"searchkick_autocomplete_search"}},"size":10,"from":0,"fields":[]}'
+  [1m[36mProfessor Load (0.4ms)[0m  [1mSELECT "professors".* FROM "professors" WHERE "professors"."id" = 260[0m
+Completed 200 OK in 158ms (Views: 0.2ms | Searchkick: 154.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/professors?utf8=%E2%9C%93&query=Faruk&commit=Search" for 127.0.0.1 at 2015-04-28 20:43:51 -0400
+Processing by ProfessorsController#index as HTML
+  Parameters: {"utf8"=>"✓", "query"=>"Faruk", "commit"=>"Search"}
+  [1m[33mProfessor Search (1221.8ms)[0m  curl http://localhost:9200/professors_development/_search?pretty -d '{"query":{"dis_max":{"queries":[{"match":{"first_name.analyzed":{"query":"Faruk","operator":"and","boost":10,"analyzer":"searchkick_search"}}},{"match":{"first_name.analyzed":{"query":"Faruk","operator":"and","boost":10,"analyzer":"searchkick_search2"}}},{"match":{"first_name.analyzed":{"query":"Faruk","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search"}}},{"match":{"first_name.analyzed":{"query":"Faruk","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search2"}}},{"match":{"last_name.analyzed":{"query":"Faruk","operator":"and","boost":10,"analyzer":"searchkick_search"}}},{"match":{"last_name.analyzed":{"query":"Faruk","operator":"and","boost":10,"analyzer":"searchkick_search2"}}},{"match":{"last_name.analyzed":{"query":"Faruk","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search"}}},{"match":{"last_name.analyzed":{"query":"Faruk","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search2"}}},{"match":{"netid.analyzed":{"query":"Faruk","operator":"and","boost":10,"analyzer":"searchkick_search"}}},{"match":{"netid.analyzed":{"query":"Faruk","operator":"and","boost":10,"analyzer":"searchkick_search2"}}},{"match":{"netid.analyzed":{"query":"Faruk","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search"}}},{"match":{"netid.analyzed":{"query":"Faruk","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search2"}}},{"match":{"department.analyzed":{"query":"Faruk","operator":"and","boost":10,"analyzer":"searchkick_search"}}},{"match":{"department.analyzed":{"query":"Faruk","operator":"and","boost":10,"analyzer":"searchkick_search2"}}},{"match":{"department.analyzed":{"query":"Faruk","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search"}}},{"match":{"department.analyzed":{"query":"Faruk","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search2"}}}]}},"size":100000,"from":0,"fields":[]}'
+  [1m[35mProfessor Load (3.1ms)[0m  SELECT "professors".* FROM "professors" WHERE "professors"."id" = 260
+  Rendered professors/index.html.erb within layouts/application (10.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 1898ms (Views: 664.4ms | Searchkick: 1221.8ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:43:53 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:43:53 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:43:53 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for 127.0.0.1 at 2015-04-28 20:43:53 -0400
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:43:53 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:43:53 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:43:53 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:43:53 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:43:53 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:43:53 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:43:53 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:43:53 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:43:53 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:43:53 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:43:53 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:43:53 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:43:53 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:43:53 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:43:53 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:43:53 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:43:53 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:43:53 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:43:53 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:43:53 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:43:53 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:43:53 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:43:53 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:43:53 -0400
+
+
+Started GET "/professors/autocomplete?query=Gu" for 127.0.0.1 at 2015-04-28 20:43:58 -0400
+Processing by ProfessorsController#autocomplete as JSON
+  Parameters: {"query"=>"Gu"}
+  [1m[33mProfessor Search (120.5ms)[0m  curl http://localhost:9200/professors_development/_search?pretty -d '{"query":{"multi_match":{"fields":["first_name.autocomplete","last_name.autocomplete","netid.autocomplete","department.autocomplete"],"query":"Gu","analyzer":"searchkick_autocomplete_search"}},"size":10,"from":0,"fields":[]}'
+  [1m[36mProfessor Load (0.3ms)[0m  [1mSELECT "professors".* FROM "professors" WHERE "professors"."id" IN (19, 456, 221, 212, 260, 539, 152, 906, 905, 469)[0m
+Completed 200 OK in 124ms (Views: 0.2ms | Searchkick: 120.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/professors/autocomplete?query=Gul" for 127.0.0.1 at 2015-04-28 20:43:59 -0400
+Processing by ProfessorsController#autocomplete as JSON
+  Parameters: {"query"=>"Gul"}
+  [1m[33mProfessor Search (55.2ms)[0m  curl http://localhost:9200/professors_development/_search?pretty -d '{"query":{"multi_match":{"fields":["first_name.autocomplete","last_name.autocomplete","netid.autocomplete","department.autocomplete"],"query":"Gul","analyzer":"searchkick_autocomplete_search"}},"size":10,"from":0,"fields":[]}'
+  [1m[35mProfessor Load (0.1ms)[0m  SELECT "professors".* FROM "professors" WHERE "professors"."id" = 260
+Completed 200 OK in 59ms (Views: 0.2ms | Searchkick: 55.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/professors?utf8=%E2%9C%93&query=Gul&commit=Search" for 127.0.0.1 at 2015-04-28 20:43:59 -0400
+Processing by ProfessorsController#index as HTML
+  Parameters: {"utf8"=>"✓", "query"=>"Gul", "commit"=>"Search"}
+  [1m[33mProfessor Search (508.5ms)[0m  curl http://localhost:9200/professors_development/_search?pretty -d '{"query":{"dis_max":{"queries":[{"match":{"first_name.analyzed":{"query":"Gul","operator":"and","boost":10,"analyzer":"searchkick_search"}}},{"match":{"first_name.analyzed":{"query":"Gul","operator":"and","boost":10,"analyzer":"searchkick_search2"}}},{"match":{"first_name.analyzed":{"query":"Gul","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search"}}},{"match":{"first_name.analyzed":{"query":"Gul","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search2"}}},{"match":{"last_name.analyzed":{"query":"Gul","operator":"and","boost":10,"analyzer":"searchkick_search"}}},{"match":{"last_name.analyzed":{"query":"Gul","operator":"and","boost":10,"analyzer":"searchkick_search2"}}},{"match":{"last_name.analyzed":{"query":"Gul","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search"}}},{"match":{"last_name.analyzed":{"query":"Gul","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search2"}}},{"match":{"netid.analyzed":{"query":"Gul","operator":"and","boost":10,"analyzer":"searchkick_search"}}},{"match":{"netid.analyzed":{"query":"Gul","operator":"and","boost":10,"analyzer":"searchkick_search2"}}},{"match":{"netid.analyzed":{"query":"Gul","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search"}}},{"match":{"netid.analyzed":{"query":"Gul","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search2"}}},{"match":{"department.analyzed":{"query":"Gul","operator":"and","boost":10,"analyzer":"searchkick_search"}}},{"match":{"department.analyzed":{"query":"Gul","operator":"and","boost":10,"analyzer":"searchkick_search2"}}},{"match":{"department.analyzed":{"query":"Gul","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search"}}},{"match":{"department.analyzed":{"query":"Gul","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search2"}}}]}},"size":100000,"from":0,"fields":[]}'
+  [1m[36mProfessor Load (0.4ms)[0m  [1mSELECT "professors".* FROM "professors" WHERE "professors"."id" IN (260, 19, 539, 390)[0m
+  Rendered professors/index.html.erb within layouts/application (11.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 1448ms (Views: 936.5ms | Searchkick: 508.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:44:01 -0400
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:44:01 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:44:01 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:44:01 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:01 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for 127.0.0.1 at 2015-04-28 20:44:01 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:01 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:01 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:01 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:01 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:01 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:01 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:01 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:01 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:01 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:01 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:44:01 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:01 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:01 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:01 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:01 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:01 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:01 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:01 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:01 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:01 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:01 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:01 -0400
+
+
+Started GET "/professors/autocomplete?query=Ec" for 127.0.0.1 at 2015-04-28 20:44:06 -0400
+Processing by ProfessorsController#autocomplete as JSON
+  Parameters: {"query"=>"Ec"}
+  [1m[33mProfessor Search (92.3ms)[0m  curl http://localhost:9200/professors_development/_search?pretty -d '{"query":{"multi_match":{"fields":["first_name.autocomplete","last_name.autocomplete","netid.autocomplete","department.autocomplete"],"query":"Ec","analyzer":"searchkick_autocomplete_search"}},"size":10,"from":0,"fields":[]}'
+  [1m[35mProfessor Load (0.5ms)[0m  SELECT "professors".* FROM "professors" WHERE "professors"."id" IN (674, 309, 852, 857, 991, 272, 277, 284, 289, 291)
+Completed 200 OK in 99ms (Views: 0.3ms | Searchkick: 92.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/professors/autocomplete?query=Economics" for 127.0.0.1 at 2015-04-28 20:44:08 -0400
+Processing by ProfessorsController#autocomplete as JSON
+  Parameters: {"query"=>"Economics"}
+  [1m[33mProfessor Search (87.7ms)[0m  curl http://localhost:9200/professors_development/_search?pretty -d '{"query":{"multi_match":{"fields":["first_name.autocomplete","last_name.autocomplete","netid.autocomplete","department.autocomplete"],"query":"Economics","analyzer":"searchkick_autocomplete_search"}},"size":10,"from":0,"fields":[]}'
+  [1m[36mProfessor Load (0.4ms)[0m  [1mSELECT "professors".* FROM "professors" WHERE "professors"."id" IN (272, 277, 284, 289, 291, 296, 260, 265, 294, 299)[0m
+Completed 200 OK in 92ms (Views: 0.3ms | Searchkick: 87.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/professors?utf8=%E2%9C%93&query=Economics&commit=Search" for 127.0.0.1 at 2015-04-28 20:44:08 -0400
+Processing by ProfessorsController#index as HTML
+  Parameters: {"utf8"=>"✓", "query"=>"Economics", "commit"=>"Search"}
+  [1m[33mProfessor Search (324.5ms)[0m  curl http://localhost:9200/professors_development/_search?pretty -d '{"query":{"dis_max":{"queries":[{"match":{"first_name.analyzed":{"query":"Economics","operator":"and","boost":10,"analyzer":"searchkick_search"}}},{"match":{"first_name.analyzed":{"query":"Economics","operator":"and","boost":10,"analyzer":"searchkick_search2"}}},{"match":{"first_name.analyzed":{"query":"Economics","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search"}}},{"match":{"first_name.analyzed":{"query":"Economics","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search2"}}},{"match":{"last_name.analyzed":{"query":"Economics","operator":"and","boost":10,"analyzer":"searchkick_search"}}},{"match":{"last_name.analyzed":{"query":"Economics","operator":"and","boost":10,"analyzer":"searchkick_search2"}}},{"match":{"last_name.analyzed":{"query":"Economics","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search"}}},{"match":{"last_name.analyzed":{"query":"Economics","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search2"}}},{"match":{"netid.analyzed":{"query":"Economics","operator":"and","boost":10,"analyzer":"searchkick_search"}}},{"match":{"netid.analyzed":{"query":"Economics","operator":"and","boost":10,"analyzer":"searchkick_search2"}}},{"match":{"netid.analyzed":{"query":"Economics","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search"}}},{"match":{"netid.analyzed":{"query":"Economics","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search2"}}},{"match":{"department.analyzed":{"query":"Economics","operator":"and","boost":10,"analyzer":"searchkick_search"}}},{"match":{"department.analyzed":{"query":"Economics","operator":"and","boost":10,"analyzer":"searchkick_search2"}}},{"match":{"department.analyzed":{"query":"Economics","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search"}}},{"match":{"department.analyzed":{"query":"Economics","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search2"}}}]}},"size":100000,"from":0,"fields":[]}'
+  [1m[35mProfessor Load (2.0ms)[0m  SELECT "professors".* FROM "professors" WHERE "professors"."id" IN (272, 277, 284, 289, 291, 296, 260, 265, 294, 299, 263, 268, 270, 275, 282, 287, 281, 286, 293, 298, 262, 267, 274, 279, 276, 283, 288, 290, 295, 264, 269, 271, 292, 297, 300, 261, 266, 273, 278, 280, 285)
+  Rendered professors/index.html.erb within layouts/application (19.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 896ms (Views: 565.2ms | Searchkick: 324.5ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:44:09 -0400
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:44:09 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:44:09 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for 127.0.0.1 at 2015-04-28 20:44:09 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:09 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:44:09 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:09 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:09 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:09 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:09 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:09 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:09 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:09 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:09 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:09 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:09 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:44:09 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:09 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:09 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:10 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:10 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:10 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:10 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:10 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:10 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:10 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:10 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:10 -0400
+
+
+Started GET "/professors/autocomplete?query=Economic" for 127.0.0.1 at 2015-04-28 20:44:19 -0400
+Processing by ProfessorsController#autocomplete as JSON
+  Parameters: {"query"=>"Economic"}
+  [1m[33mProfessor Search (120.1ms)[0m  curl http://localhost:9200/professors_development/_search?pretty -d '{"query":{"multi_match":{"fields":["first_name.autocomplete","last_name.autocomplete","netid.autocomplete","department.autocomplete"],"query":"Economic","analyzer":"searchkick_autocomplete_search"}},"size":10,"from":0,"fields":[]}'
+  [1m[36mProfessor Load (1.1ms)[0m  [1mSELECT "professors".* FROM "professors" WHERE "professors"."id" IN (272, 277, 284, 289, 291, 296, 260, 265, 294, 299)[0m
+Completed 200 OK in 126ms (Views: 0.4ms | Searchkick: 120.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/professors/autocomplete?query=E" for 127.0.0.1 at 2015-04-28 20:44:20 -0400
+Processing by ProfessorsController#autocomplete as JSON
+  Parameters: {"query"=>"E"}
+  [1m[33mProfessor Search (73.3ms)[0m  curl http://localhost:9200/professors_development/_search?pretty -d '{"query":{"multi_match":{"fields":["first_name.autocomplete","last_name.autocomplete","netid.autocomplete","department.autocomplete"],"query":"E","analyzer":"searchkick_autocomplete_search"}},"size":10,"from":0,"fields":[]}'
+  [1m[35mProfessor Load (0.3ms)[0m  SELECT "professors".* FROM "professors" WHERE "professors"."id" IN (549, 29, 738, 869, 663, 1005, 227, 704, 658, 611)
+Completed 200 OK in 77ms (Views: 0.2ms | Searchkick: 73.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/professors/autocomplete?query=Faruk%20Gul" for 127.0.0.1 at 2015-04-28 20:44:22 -0400
+Processing by ProfessorsController#autocomplete as JSON
+  Parameters: {"query"=>"Faruk Gul"}
+  [1m[33mProfessor Search (42.8ms)[0m  curl http://localhost:9200/professors_development/_search?pretty -d '{"query":{"multi_match":{"fields":["first_name.autocomplete","last_name.autocomplete","netid.autocomplete","department.autocomplete"],"query":"Faruk Gul","analyzer":"searchkick_autocomplete_search"}},"size":10,"from":0,"fields":[]}'
+Completed 200 OK in 46ms (Views: 0.1ms | Searchkick: 42.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/professors?utf8=%E2%9C%93&query=Faruk+Gul&commit=Search" for 127.0.0.1 at 2015-04-28 20:44:22 -0400
+Processing by ProfessorsController#index as HTML
+  Parameters: {"utf8"=>"✓", "query"=>"Faruk Gul", "commit"=>"Search"}
+  [1m[33mProfessor Search (543.7ms)[0m  curl http://localhost:9200/professors_development/_search?pretty -d '{"query":{"dis_max":{"queries":[{"match":{"first_name.analyzed":{"query":"Faruk Gul","operator":"and","boost":10,"analyzer":"searchkick_search"}}},{"match":{"first_name.analyzed":{"query":"Faruk Gul","operator":"and","boost":10,"analyzer":"searchkick_search2"}}},{"match":{"first_name.analyzed":{"query":"Faruk Gul","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search"}}},{"match":{"first_name.analyzed":{"query":"Faruk Gul","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search2"}}},{"match":{"last_name.analyzed":{"query":"Faruk Gul","operator":"and","boost":10,"analyzer":"searchkick_search"}}},{"match":{"last_name.analyzed":{"query":"Faruk Gul","operator":"and","boost":10,"analyzer":"searchkick_search2"}}},{"match":{"last_name.analyzed":{"query":"Faruk Gul","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search"}}},{"match":{"last_name.analyzed":{"query":"Faruk Gul","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search2"}}},{"match":{"netid.analyzed":{"query":"Faruk Gul","operator":"and","boost":10,"analyzer":"searchkick_search"}}},{"match":{"netid.analyzed":{"query":"Faruk Gul","operator":"and","boost":10,"analyzer":"searchkick_search2"}}},{"match":{"netid.analyzed":{"query":"Faruk Gul","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search"}}},{"match":{"netid.analyzed":{"query":"Faruk Gul","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search2"}}},{"match":{"department.analyzed":{"query":"Faruk Gul","operator":"and","boost":10,"analyzer":"searchkick_search"}}},{"match":{"department.analyzed":{"query":"Faruk Gul","operator":"and","boost":10,"analyzer":"searchkick_search2"}}},{"match":{"department.analyzed":{"query":"Faruk Gul","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search"}}},{"match":{"department.analyzed":{"query":"Faruk Gul","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search2"}}}]}},"size":100000,"from":0,"fields":[]}'
+  Rendered professors/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1138ms (Views: 589.5ms | Searchkick: 543.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:44:24 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:44:24 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for 127.0.0.1 at 2015-04-28 20:44:24 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:44:24 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:44:24 -0400
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:44:24 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:24 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:24 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:24 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:24 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:24 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:24 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:24 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:24 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:24 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:24 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:24 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:24 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:24 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:24 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:24 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:24 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:24 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:24 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:24 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:24 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:24 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:44:24 -0400
+
+
+Started GET "/professors/autocomplete?query=Faru" for 127.0.0.1 at 2015-04-28 20:45:27 -0400
+Processing by ProfessorsController#autocomplete as JSON
+  Parameters: {"query"=>"Faru"}
+  [1m[33mProfessor Search (52.7ms)[0m  curl http://localhost:9200/professors_development/_search?pretty -d '{"query":{"multi_match":{"fields":["first_name.autocomplete","last_name.autocomplete","netid.autocomplete","department.autocomplete"],"query":"Faru","analyzer":"searchkick_autocomplete_search"}},"size":10,"from":0,"fields":[]}'
+  [1m[36mProfessor Load (0.4ms)[0m  [1mSELECT "professors".* FROM "professors" WHERE "professors"."id" = 260[0m
+Completed 200 OK in 57ms (Views: 0.3ms | Searchkick: 52.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/professors?utf8=%E2%9C%93&query=Faru&commit=Search" for 127.0.0.1 at 2015-04-28 20:45:28 -0400
+Processing by ProfessorsController#index as HTML
+  Parameters: {"utf8"=>"✓", "query"=>"Faru", "commit"=>"Search"}
+  [1m[33mProfessor Search (379.6ms)[0m  curl http://localhost:9200/professors_development/_search?pretty -d '{"query":{"dis_max":{"queries":[{"match":{"first_name.analyzed":{"query":"Faru","operator":"and","boost":10,"analyzer":"searchkick_search"}}},{"match":{"first_name.analyzed":{"query":"Faru","operator":"and","boost":10,"analyzer":"searchkick_search2"}}},{"match":{"first_name.analyzed":{"query":"Faru","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search"}}},{"match":{"first_name.analyzed":{"query":"Faru","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search2"}}},{"match":{"last_name.analyzed":{"query":"Faru","operator":"and","boost":10,"analyzer":"searchkick_search"}}},{"match":{"last_name.analyzed":{"query":"Faru","operator":"and","boost":10,"analyzer":"searchkick_search2"}}},{"match":{"last_name.analyzed":{"query":"Faru","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search"}}},{"match":{"last_name.analyzed":{"query":"Faru","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search2"}}},{"match":{"netid.analyzed":{"query":"Faru","operator":"and","boost":10,"analyzer":"searchkick_search"}}},{"match":{"netid.analyzed":{"query":"Faru","operator":"and","boost":10,"analyzer":"searchkick_search2"}}},{"match":{"netid.analyzed":{"query":"Faru","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search"}}},{"match":{"netid.analyzed":{"query":"Faru","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search2"}}},{"match":{"department.analyzed":{"query":"Faru","operator":"and","boost":10,"analyzer":"searchkick_search"}}},{"match":{"department.analyzed":{"query":"Faru","operator":"and","boost":10,"analyzer":"searchkick_search2"}}},{"match":{"department.analyzed":{"query":"Faru","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search"}}},{"match":{"department.analyzed":{"query":"Faru","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search2"}}}]}},"size":100000,"from":0,"fields":[]}'
+  [1m[35mProfessor Load (0.4ms)[0m  SELECT "professors".* FROM "professors" WHERE "professors"."id" IN (260, 744)
+  Rendered professors/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1299ms (Views: 913.0ms | Searchkick: 379.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:45:29 -0400
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:45:29 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:45:29 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for 127.0.0.1 at 2015-04-28 20:45:29 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:45:29 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:45:29 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:45:29 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:45:29 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:45:29 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:45:29 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:45:29 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:45:29 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:45:29 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:45:29 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:45:29 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:45:29 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:45:29 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:45:29 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:45:30 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:45:30 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:45:30 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:45:30 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:45:30 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:45:30 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:45:30 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:45:30 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:45:30 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:45:30 -0400
+
+
+Started GET "/professors/autocomplete?query=F" for 127.0.0.1 at 2015-04-28 20:45:42 -0400
+Processing by ProfessorsController#autocomplete as JSON
+  Parameters: {"query"=>"F"}
+  [1m[33mProfessor Search (67.1ms)[0m  curl http://localhost:9200/professors_development/_search?pretty -d '{"query":{"multi_match":{"fields":["first_name.autocomplete","last_name.autocomplete","netid.autocomplete","department.autocomplete"],"query":"F","analyzer":"searchkick_autocomplete_search"}},"size":10,"from":0,"fields":[]}'
+  [1m[36mProfessor Load (0.4ms)[0m  [1mSELECT "professors".* FROM "professors" WHERE "professors"."id" IN (260, 682, 878, 256, 101, 786, 63, 804, 35, 953)[0m
+Completed 200 OK in 76ms (Views: 0.5ms | Searchkick: 67.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/professors/autocomplete?query=Farber%20Economics" for 127.0.0.1 at 2015-04-28 20:45:45 -0400
+Processing by ProfessorsController#autocomplete as JSON
+  Parameters: {"query"=>"Farber Economics"}
+  [1m[33mProfessor Search (40.5ms)[0m  curl http://localhost:9200/professors_development/_search?pretty -d '{"query":{"multi_match":{"fields":["first_name.autocomplete","last_name.autocomplete","netid.autocomplete","department.autocomplete"],"query":"Farber Economics","analyzer":"searchkick_autocomplete_search"}},"size":10,"from":0,"fields":[]}'
+Completed 200 OK in 44ms (Views: 0.2ms | Searchkick: 40.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/professors?utf8=%E2%9C%93&query=Farber+Economics&commit=Search" for 127.0.0.1 at 2015-04-28 20:45:46 -0400
+Processing by ProfessorsController#index as HTML
+  Parameters: {"utf8"=>"✓", "query"=>"Farber Economics", "commit"=>"Search"}
+  [1m[33mProfessor Search (318.4ms)[0m  curl http://localhost:9200/professors_development/_search?pretty -d '{"query":{"dis_max":{"queries":[{"match":{"first_name.analyzed":{"query":"Farber Economics","operator":"and","boost":10,"analyzer":"searchkick_search"}}},{"match":{"first_name.analyzed":{"query":"Farber Economics","operator":"and","boost":10,"analyzer":"searchkick_search2"}}},{"match":{"first_name.analyzed":{"query":"Farber Economics","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search"}}},{"match":{"first_name.analyzed":{"query":"Farber Economics","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search2"}}},{"match":{"last_name.analyzed":{"query":"Farber Economics","operator":"and","boost":10,"analyzer":"searchkick_search"}}},{"match":{"last_name.analyzed":{"query":"Farber Economics","operator":"and","boost":10,"analyzer":"searchkick_search2"}}},{"match":{"last_name.analyzed":{"query":"Farber Economics","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search"}}},{"match":{"last_name.analyzed":{"query":"Farber Economics","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search2"}}},{"match":{"netid.analyzed":{"query":"Farber Economics","operator":"and","boost":10,"analyzer":"searchkick_search"}}},{"match":{"netid.analyzed":{"query":"Farber Economics","operator":"and","boost":10,"analyzer":"searchkick_search2"}}},{"match":{"netid.analyzed":{"query":"Farber Economics","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search"}}},{"match":{"netid.analyzed":{"query":"Farber Economics","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search2"}}},{"match":{"department.analyzed":{"query":"Farber Economics","operator":"and","boost":10,"analyzer":"searchkick_search"}}},{"match":{"department.analyzed":{"query":"Farber Economics","operator":"and","boost":10,"analyzer":"searchkick_search2"}}},{"match":{"department.analyzed":{"query":"Farber Economics","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search"}}},{"match":{"department.analyzed":{"query":"Farber Economics","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search2"}}}]}},"size":100000,"from":0,"fields":[]}'
+  Rendered professors/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 964ms (Views: 642.4ms | Searchkick: 318.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:45:47 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:45:47 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:45:47 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:45:47 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:45:47 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for 127.0.0.1 at 2015-04-28 20:45:47 -0400
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:45:47 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:45:47 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:45:47 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:45:47 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:45:47 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:45:47 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:45:47 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:45:47 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:45:47 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:45:47 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:45:47 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:45:47 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:45:47 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:45:47 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:45:47 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:45:47 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:45:48 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:45:48 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:45:48 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:45:48 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:45:48 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:45:48 -0400
+
+
+Started GET "/reviews/new" for 127.0.0.1 at 2015-04-28 20:46:58 -0400
+Processing by ReviewsController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered reviews/new.html.erb within layouts/application (25.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (2.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 330ms (Views: 328.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-28 20:47:04 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "cxduan". Previous ticket "ST-26912-MWcCCT3JaVc0B7BpqR4w-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 307ms (Views: 306.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/find" for 127.0.0.1 at 2015-04-28 20:47:46 -0400
+Processing by SearchsController#new as HTML
+  Rendered searchs/new.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 303ms (Views: 301.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/find" for 127.0.0.1 at 2015-04-28 20:47:59 -0400
+Processing by SearchsController#new as HTML
+  Rendered searchs/new.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_shim.html.erb (0.8ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 310ms (Views: 309.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/reviews/new" for 127.0.0.1 at 2015-04-28 20:48:00 -0400
+Processing by ReviewsController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered reviews/new.html.erb within layouts/application (15.9ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 319ms (Views: 317.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-28 20:48:03 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "cxduan". Previous ticket "ST-26912-MWcCCT3JaVc0B7BpqR4w-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 405ms (Views: 403.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/find" for 127.0.0.1 at 2015-04-28 20:48:05 -0400
+Processing by SearchsController#new as HTML
+  Rendered searchs/new.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 338ms (Views: 337.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-28 20:48:07 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "cxduan". Previous ticket "ST-26912-MWcCCT3JaVc0B7BpqR4w-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 316ms (Views: 314.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/reviews/new" for 127.0.0.1 at 2015-04-28 20:48:08 -0400
+Processing by ReviewsController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered reviews/new.html.erb within layouts/application (28.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 424ms (Views: 423.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-28 20:48:11 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "cxduan". Previous ticket "ST-26912-MWcCCT3JaVc0B7BpqR4w-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 310ms (Views: 308.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/find" for 127.0.0.1 at 2015-04-28 20:48:39 -0400
+Processing by SearchsController#new as HTML
+  Rendered searchs/new.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 386ms (Views: 384.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/reviews/new" for 127.0.0.1 at 2015-04-28 20:48:42 -0400
+Processing by ReviewsController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered reviews/new.html.erb within layouts/application (32.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 363ms (Views: 361.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/reviews/new" for 127.0.0.1 at 2015-04-28 20:49:23 -0400
+Processing by ReviewsController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered reviews/new.html.erb within layouts/application (14.6ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 359ms (Views: 357.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/find" for 127.0.0.1 at 2015-04-28 20:49:25 -0400
+Processing by SearchsController#new as HTML
+  Rendered searchs/new.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 319ms (Views: 317.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-28 20:49:33 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "cxduan". Previous ticket "ST-26912-MWcCCT3JaVc0B7BpqR4w-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 351ms (Views: 350.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/find" for 127.0.0.1 at 2015-04-28 20:49:38 -0400
+Processing by SearchsController#new as HTML
+  Rendered searchs/new.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 300ms (Views: 298.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/reviews/new" for 127.0.0.1 at 2015-04-28 20:49:39 -0400
+Processing by ReviewsController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered reviews/new.html.erb within layouts/application (18.9ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 357ms (Views: 354.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-28 20:49:44 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "cxduan". Previous ticket "ST-26912-MWcCCT3JaVc0B7BpqR4w-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 325ms (Views: 323.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-28 20:50:12 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "cxduan". Previous ticket "ST-26912-MWcCCT3JaVc0B7BpqR4w-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 657ms (Views: 650.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-58fe0a2e651f8205a81cab79d9d21a58.css?body=1" for 127.0.0.1 at 2015-04-28 20:50:12 -0400
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:50:12 -0400
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:50:12 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for 127.0.0.1 at 2015-04-28 20:50:12 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:50:12 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:50:12 -0400
+
+
+Started GET "/assets/application-c738239b1313d28609e812f051f92240.css?body=1" for 127.0.0.1 at 2015-04-28 20:50:12 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:12 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:12 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:12 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:12 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:12 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:13 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:13 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:13 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:13 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:13 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:13 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:50:13 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:13 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:13 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:13 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:13 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:13 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:13 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:13 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:13 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:13 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:13 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:13 -0400
+
+
+Started GET "/assets/Aplus-a53151e83afd62814fe3f875a98674a4.png" for 127.0.0.1 at 2015-04-28 20:50:13 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-28 20:50:20 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "cxduan". Previous ticket "ST-26912-MWcCCT3JaVc0B7BpqR4w-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (15.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 691ms (Views: 687.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-58fe0a2e651f8205a81cab79d9d21a58.css?body=1" for 127.0.0.1 at 2015-04-28 20:50:21 -0400
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:50:21 -0400
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:50:21 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:50:21 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:50:21 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:50:21 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for 127.0.0.1 at 2015-04-28 20:50:21 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:21 -0400
+
+
+Started GET "/assets/application-c738239b1313d28609e812f051f92240.css?body=1" for 127.0.0.1 at 2015-04-28 20:50:21 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:21 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:21 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:21 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:21 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:21 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:21 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:21 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:21 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:21 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:21 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:22 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:22 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:22 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:22 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:22 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:22 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:22 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:22 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:22 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:22 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:22 -0400
+
+
+Started GET "/assets/Aplus-a53151e83afd62814fe3f875a98674a4.png" for 127.0.0.1 at 2015-04-28 20:50:22 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-28 20:50:34 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "cxduan". Previous ticket "ST-26912-MWcCCT3JaVc0B7BpqR4w-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 640ms (Views: 636.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-58fe0a2e651f8205a81cab79d9d21a58.css?body=1" for 127.0.0.1 at 2015-04-28 20:50:34 -0400
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:50:34 -0400
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:50:34 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:50:34 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:50:34 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:50:34 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for 127.0.0.1 at 2015-04-28 20:50:35 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:35 -0400
+
+
+Started GET "/assets/application-c738239b1313d28609e812f051f92240.css?body=1" for 127.0.0.1 at 2015-04-28 20:50:35 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:35 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:35 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:35 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:35 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:35 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:35 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:35 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:35 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:35 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:35 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:35 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:35 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:35 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:35 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:35 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:35 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:35 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:35 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:35 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:35 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:50:35 -0400
+
+
+Started GET "/assets/Aplus-a53151e83afd62814fe3f875a98674a4.png" for 127.0.0.1 at 2015-04-28 20:50:35 -0400
+
+
+Started GET "/professors/autocomplete?query=f" for 127.0.0.1 at 2015-04-28 20:50:40 -0400
+Processing by ProfessorsController#autocomplete as JSON
+  Parameters: {"query"=>"f"}
+  [1m[33mProfessor Search (37.5ms)[0m  curl http://localhost:9200/professors_development/_search?pretty -d '{"query":{"multi_match":{"fields":["first_name.autocomplete","last_name.autocomplete","netid.autocomplete","department.autocomplete"],"query":"f","analyzer":"searchkick_autocomplete_search"}},"size":10,"from":0,"fields":[]}'
+  [1m[35mProfessor Load (0.2ms)[0m  SELECT "professors".* FROM "professors" WHERE "professors"."id" IN (260, 682, 878, 256, 101, 786, 63, 804, 35, 953)
+Completed 200 OK in 41ms (Views: 0.3ms | Searchkick: 37.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/find" for 127.0.0.1 at 2015-04-28 20:53:59 -0400
+Processing by SearchsController#new as HTML
+  Rendered searchs/new.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 368ms (Views: 367.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/reviews/new" for 127.0.0.1 at 2015-04-28 20:54:01 -0400
+Processing by ReviewsController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.2ms)
+  Rendered reviews/new.html.erb within layouts/application (27.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 328ms (Views: 326.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-28 20:54:05 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "cxduan". Previous ticket "ST-26912-MWcCCT3JaVc0B7BpqR4w-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 359ms (Views: 358.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/professors/autocomplete?query=far" for 127.0.0.1 at 2015-04-28 20:54:09 -0400
+Processing by ProfessorsController#autocomplete as JSON
+  Parameters: {"query"=>"far"}
+  [1m[33mProfessor Search (29.7ms)[0m  curl http://localhost:9200/professors_development/_search?pretty -d '{"query":{"multi_match":{"fields":["first_name.autocomplete","last_name.autocomplete","netid.autocomplete","department.autocomplete"],"query":"far","analyzer":"searchkick_autocomplete_search"}},"size":10,"from":0,"fields":[]}'
+  [1m[36mProfessor Load (1.6ms)[0m  [1mSELECT "professors".* FROM "professors" WHERE "professors"."id" IN (744, 260, 264, 298)[0m
+Completed 200 OK in 38ms (Views: 1.5ms | Searchkick: 29.7ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/professors/autocomplete?query=fa" for 127.0.0.1 at 2015-04-28 20:54:15 -0400
+Processing by ProfessorsController#autocomplete as JSON
+  Parameters: {"query"=>"fa"}
+  [1m[33mProfessor Search (39.9ms)[0m  curl http://localhost:9200/professors_development/_search?pretty -d '{"query":{"multi_match":{"fields":["first_name.autocomplete","last_name.autocomplete","netid.autocomplete","department.autocomplete"],"query":"fa","analyzer":"searchkick_autocomplete_search"}},"size":10,"from":0,"fields":[]}'
+  [1m[35mProfessor Load (0.4ms)[0m  SELECT "professors".* FROM "professors" WHERE "professors"."id" IN (260, 720, 744, 569, 786, 264, 12, 298)
+Completed 200 OK in 45ms (Views: 0.4ms | Searchkick: 39.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/reviews/new" for 127.0.0.1 at 2015-04-28 20:54:20 -0400
+Processing by ReviewsController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.9ms)
+  Rendered reviews/new.html.erb within layouts/application (17.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 323ms (Views: 321.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/find" for 127.0.0.1 at 2015-04-28 20:57:22 -0400
+Processing by SearchsController#new as HTML
+  Rendered searchs/new.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 337ms (Views: 335.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-28 20:57:26 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "cxduan". Previous ticket "ST-26912-MWcCCT3JaVc0B7BpqR4w-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 312ms (Views: 311.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/reviews/new" for 127.0.0.1 at 2015-04-28 20:57:28 -0400
+Processing by ReviewsController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered reviews/new.html.erb within layouts/application (21.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 434ms (Views: 431.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/reviews/new" for 127.0.0.1 at 2015-04-28 20:58:38 -0400
+Processing by ReviewsController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered reviews/new.html.erb within layouts/application (71.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 811ms (Views: 809.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-58fe0a2e651f8205a81cab79d9d21a58.css?body=1" for 127.0.0.1 at 2015-04-28 20:58:39 -0400
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:58:39 -0400
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:58:39 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:58:39 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:58:39 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for 127.0.0.1 at 2015-04-28 20:58:39 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:58:39 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:58:39 -0400
+
+
+Started GET "/assets/application-c738239b1313d28609e812f051f92240.css?body=1" for 127.0.0.1 at 2015-04-28 20:58:39 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:58:39 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:58:39 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:58:39 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:58:39 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:58:39 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:58:39 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:58:39 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:58:39 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 20:58:39 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:58:39 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 20:58:39 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 20:58:39 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 20:58:40 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 20:58:40 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 20:58:40 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 20:58:40 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:58:40 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:58:40 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:58:40 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 20:58:40 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 20:58:40 -0400
+
+
+Started GET "/reviews/new" for 127.0.0.1 at 2015-04-28 21:01:01 -0400
+Processing by ReviewsController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered reviews/new.html.erb within layouts/application (78.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (3.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 707ms (Views: 704.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-58fe0a2e651f8205a81cab79d9d21a58.css?body=1" for 127.0.0.1 at 2015-04-28 21:01:02 -0400
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 21:01:02 -0400
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 21:01:02 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 21:01:02 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 21:01:02 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 21:01:02 -0400
+
+
+Started GET "/assets/application-c738239b1313d28609e812f051f92240.css?body=1" for 127.0.0.1 at 2015-04-28 21:01:02 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 21:01:02 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for 127.0.0.1 at 2015-04-28 21:01:02 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 21:01:02 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 21:01:02 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 21:01:02 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 21:01:02 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 21:01:02 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 21:01:02 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 21:01:02 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 21:01:02 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 21:01:02 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 21:01:02 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 21:01:02 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 21:01:02 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 21:01:02 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 21:01:02 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 21:01:02 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 21:01:02 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 21:01:02 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 21:01:03 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 21:01:03 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 21:01:03 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 21:01:03 -0400
+
+
+Started GET "/reviews/new" for 127.0.0.1 at 2015-04-28 21:04:25 -0400
+Processing by ReviewsController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered reviews/new.html.erb within layouts/application (76.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 1313ms (Views: 1293.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-58fe0a2e651f8205a81cab79d9d21a58.css?body=1" for 127.0.0.1 at 2015-04-28 21:04:26 -0400
+
+
+Started GET "/assets/professors-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 21:04:26 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 21:04:26 -0400
+
+
+Started GET "/assets/reviews-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 21:04:26 -0400
+
+
+Started GET "/assets/searchs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 21:04:26 -0400
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-28 21:04:26 -0400
+
+
+Started GET "/assets/typeahead-d7e226e5c8309c6d5570dabaf78c0185.css?body=1" for 127.0.0.1 at 2015-04-28 21:04:26 -0400
+
+
+Started GET "/assets/application-c738239b1313d28609e812f051f92240.css?body=1" for 127.0.0.1 at 2015-04-28 21:04:26 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 21:04:26 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 21:04:26 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 21:04:26 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 21:04:27 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 21:04:27 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 21:04:27 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 21:04:27 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 21:04:27 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 21:04:27 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 21:04:27 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 21:04:27 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-28 21:04:27 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-28 21:04:27 -0400
+
+
+Started GET "/assets/jquery.turbolinks-64b1af28e71ef81b90d4eecd3b5128da.js?body=1" for 127.0.0.1 at 2015-04-28 21:04:27 -0400
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 127.0.0.1 at 2015-04-28 21:04:27 -0400
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 127.0.0.1 at 2015-04-28 21:04:27 -0400
+
+
+Started GET "/assets/professors-dbcedf1ec3fc3568fcbe0852c0f80a9d.js?body=1" for 127.0.0.1 at 2015-04-28 21:04:27 -0400
+
+
+Started GET "/assets/reviews-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 21:04:27 -0400
+
+
+Started GET "/assets/searchs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 21:04:27 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 21:04:27 -0400
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-28 21:04:27 -0400
+
+
+Started GET "/assets/application-5b1a77a07516e066eb6031f3a2ae6da7.js?body=1" for 127.0.0.1 at 2015-04-28 21:04:27 -0400
+
+
+Started GET "/find" for 127.0.0.1 at 2015-04-28 21:05:57 -0400
+Processing by SearchsController#new as HTML
+  Rendered searchs/new.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 312ms (Views: 310.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/reviews/new" for 127.0.0.1 at 2015-04-28 21:05:59 -0400
+Processing by ReviewsController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.2ms)
+  Rendered reviews/new.html.erb within layouts/application (55.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 399ms (Views: 397.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-28 21:06:04 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "cxduan". Previous ticket "ST-26912-MWcCCT3JaVc0B7BpqR4w-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 368ms (Views: 367.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Aplus-a53151e83afd62814fe3f875a98674a4.png" for 127.0.0.1 at 2015-04-28 21:06:04 -0400
+
+
+Started GET "/professors/autocomplete?query=a" for 127.0.0.1 at 2015-04-28 21:06:11 -0400
+Processing by ProfessorsController#autocomplete as JSON
+  Parameters: {"query"=>"a"}
+  [1m[33mProfessor Search (68.4ms)[0m  curl http://localhost:9200/professors_development/_search?pretty -d '{"query":{"multi_match":{"fields":["first_name.autocomplete","last_name.autocomplete","netid.autocomplete","department.autocomplete"],"query":"a","analyzer":"searchkick_autocomplete_search"}},"size":10,"from":0,"fields":[]}'
+  [1m[36mProfessor Load (1.6ms)[0m  [1mSELECT "professors".* FROM "professors" WHERE "professors"."id" IN (143, 344, 584, 988, 82, 196, 33, 728, 768, 782)[0m
+Completed 200 OK in 76ms (Views: 0.5ms | Searchkick: 68.4ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/reviews/new" for 127.0.0.1 at 2015-04-28 21:06:51 -0400
+Processing by ReviewsController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered reviews/new.html.erb within layouts/application (25.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 338ms (Views: 335.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/find" for 127.0.0.1 at 2015-04-28 21:06:58 -0400
+Processing by SearchsController#new as HTML
+  Rendered searchs/new.html.erb within layouts/application (6.9ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 443ms (Views: 442.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-28 21:07:02 -0400
+Processing by StaticPagesController#home as HTML
+Existing local CAS session detected for "cxduan". Previous ticket "ST-26912-MWcCCT3JaVc0B7BpqR4w-fed05" will be re-used.
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 328ms (Views: 323.2ms | ActiveRecord: 0.0ms)
