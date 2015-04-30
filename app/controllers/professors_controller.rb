@@ -21,9 +21,30 @@ class ProfessorsController < ApplicationController
 
   def index
     if params[:query].present?
-      @professors = Professor.search(params[:query], 
-                                     fields: [:first_name, :last_name, :netid, :department],
-                                     page: params[:page])
+      # split query into 4 fields
+      search_strings = params[:query].split
+      if search_strings.length == 4
+        @professors = Professor.search(search_strings[0], 
+                                       fields: [:first_name],
+                                       page: params[:page])
+        @professors = @professors.select { |professor| professor.last_name == search_strings[1] }
+        @professors = @professors.select { |professor| professor.netid == search_strings[2] }
+        @professors = @professors.select { |professor| professor.department == search_strings[3] }
+      elsif search_strings.length == 2
+        @professors = Professor.search(search_strings[0], 
+                                       fields: [:first_name],
+                                       page: params[:page])
+        @professors = @professors.select { |professor| professor.last_name == search_strings[1] }
+      else
+        @professors = Professor.search(params[:query],
+                                       fields: [:first_name, :last_name, :netid, :department],
+                                       page: params[:page])
+      end
+      if @professors.length == 0
+        @professors = Professor.search(params[:query],
+                                       fields: [:first_name, :last_name, :netid, :department],
+                                       page: params[:page])
+      end
     else
       @professors = Professor.all.page params[:page]
     end
@@ -32,7 +53,7 @@ class ProfessorsController < ApplicationController
   def autocomplete
     render json: Professor.search(params[:query],
                  autocomplete: true,
-                 fields: [:first_name, :last_name, :netid, :department],
+                 fields: [:first_name, :last_name, :netid, :department, :full_name],
                  limit: 10).map { |professor|
                    professor.first_name + " " + professor.last_name + " " + professor.netid + " " + professor.department
                  }

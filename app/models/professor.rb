@@ -5,7 +5,7 @@ class Professor < ActiveRecord::Base
   validates :last_name, presence: true
   validates :netid, presence: true, uniqueness: true
   validates :department, presence: true
-  searchkick autocomplete: ['first_name', 'last_name', 'netid', 'department']
+  searchkick autocomplete: ['first_name', 'last_name', 'netid', 'department', 'full_name']
 
   # methods for averages
   def avg_avail
