@@ -3,8 +3,9 @@
 <ul class="results">
   <% @professors.each do |professor| %>
     <li>
-      <%= professor.first_name %> <%= professor.last_name %>, 
-      <%= link_to professor.netid, professor %>
+      <%= link_to professor.first_name + " " + professor.last_name, professor %>, 
+      <%= professor.netid %>, 
+      <%= professor.department %>
     </li>
   <% end %>
 </ul>

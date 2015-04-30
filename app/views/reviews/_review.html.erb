@@ -1,6 +1,7 @@
-<li id="review-<%= review.id %>">
+<li class="jumbotron col-md-10">
   <span class="relationship">Type of work with advisor: <%= review.relationship %></span>
   <br>
+  <p></p>
   <span class="comments"><%= review.comments %></span>
   <br>
   <span class="timestamp">
@@ -9,7 +10,7 @@
       <%= link_to "delete", review, method: :delete,
                                        data: { confirm: "You sure?" } %>
     <% end %>
-    <p></p>
+    
   </span>
 </li>
 

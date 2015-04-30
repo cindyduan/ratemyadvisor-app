@@ -4,10 +4,10 @@
       <h1>
         <%= @professor.first_name %> <%= @professor.last_name %>, 
 	<%= @professor.department %>
-	<p>
-	  <%= @professor.netid %>@princeton.edu
-	</p>   
       </h1>
+      <h2>
+      <%= @professor.netid %>@princeton.edu
+      </h2>
     </section>
   </aside>
 
@@ -24,6 +24,8 @@
         <%= render @reviews %>
       </ul>
       <%= will_paginate @reviews %>
+    <% else %>
+      <h3>No reviews yet for this professor!</h3>
     <% end %>
   </div>
 
