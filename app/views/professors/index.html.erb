@@ -1,11 +1,14 @@
 <h1>Search results</h1>
 
 <ul class="results">
-  <% @professors.each do |professor| %>
+  <% if @professors == nil %>
+    <h2>Please enter something in the search bar</h2>
+  <% else @professors.each do |professor| %>
     <li>
       <%= link_to professor.first_name + " " + professor.last_name, professor %>, 
       <%= professor.netid %>, 
       <%= professor.department %>
     </li>
+  <% end %>
   <% end %>
 </ul>

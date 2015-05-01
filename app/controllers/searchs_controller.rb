@@ -6,19 +6,19 @@ class SearchsController < ApplicationController
     @professors = Professor.all
     all_fields_empty = true
     if params[:search][:netid] != ''
-      @professors = @professors.select {|professor| professor.netid == params[:search][:netid]}
+      @professors = @professors.select {|professor| professor.netid.downcase == params[:search][:netid].downcase}
       all_fields_empty = false
     end
     if params[:search][:department] != ''
-      @professors = @professors.select {|professor| professor.department == params[:search][:department]}
+      @professors = @professors.select {|professor| professor.department.downcase == params[:search][:department].downcase}
       all_fields_empty = false
     end
     if params[:search][:first_name] != ''
-      @professors = @professors.select {|professor| professor.first_name == params[:search][:first_name]}
+      @professors = @professors.select {|professor| professor.first_name.downcase == params[:search][:first_name].downcase}
       all_fields_empty = false
     end
     if params[:search][:last_name] != ''
-      @professors = @professors.select {|professor| professor.last_name == params[:search][:last_name]}
+      @professors = @professors.select {|professor| professor.last_name.downcase == params[:search][:last_name].downcase}
       all_fields_empty = false
     end
 

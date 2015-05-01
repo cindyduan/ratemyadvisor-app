@@ -5,7 +5,7 @@ class ReviewsController < ApplicationController
   end
 
   def create
-    @professor = Professor.find_by(netid: params[:review][:professor_netid])
+    @professor = Professor.find_by(netid: params[:review][:professor_netid].downcase)
     if @professor
       @review = @professor.reviews.build(review_params)
       if @review.save
