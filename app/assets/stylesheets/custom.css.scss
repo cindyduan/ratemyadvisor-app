@@ -92,7 +92,8 @@ p {
   color: orange;
   text-transform: uppercase;
   letter-spacing: -1px;
-  padding-top: 10px;
+  padding-top: 5px;
+  margin-top: 5px;
   font-weight: bold;
   &:hover {
     color: white;
@@ -100,8 +101,17 @@ p {
   }
 }
 
+.navbar {
+  padding-bottom: 5px;
+}
+
 .navigation_bar {
   margin-left: 50px;
+}
+
+#search_btn {
+  margin-top: 0px;
+  margin-bottom: -10px;
 }
 
 #find_button {
@@ -110,6 +120,8 @@ p {
     color: white;
     text-decoration: none;
   }
+  margin-top: 5px;
+  margin-bottom: -10px;
 }
 
 #rate_button {
@@ -118,6 +130,8 @@ p {
     color: white;
     text-decoration: none;
   }
+  margin-top: 5px;
+  margin-bottom: -10px;
 }
 
 #logout_button {
@@ -126,6 +140,8 @@ p {
     color: white;
     text-decoration: none;
   }
+  margin-top: 5px;
+  margin-bottom: -10px;
 }
 
 /* footer */
@@ -153,18 +169,6 @@ footer {
     }
   }
 }
-
-/* new review radio buttons */
-/*
-relationship {
-   input[type="radio"], label{
-     float:left;
-    }
-    input{
-  clear:left;
-  }
-}
-*/
 
 /* miscellaneous */
 

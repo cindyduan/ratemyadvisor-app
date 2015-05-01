@@ -6,7 +6,7 @@
       <div class="input-group input-group-sm" >
       <%= text_field_tag :query, params[:query], class: "form-control", id: "professor_search", autocomplete: "off", :size => 50 %>
       <div class="input-group-btn">
-	<%= submit_tag "Search", class: "btn btn-custom" %>
+  <%= submit_tag "Search", class: "btn btn-custom", id: "search_btn" %>
       </div>
      
     <div class="navigation_bar">
@@ -18,7 +18,8 @@
       </ul>
     </nav>
     </div>
-	     <% end %>
+       <% end %>
       </div>
   </div>
+
 </header>
