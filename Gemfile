@@ -19,6 +19,7 @@ gem 'sdoc', '0.4.0', group: :doc
 gem 'rubycas-client', :git => 'git://github.com/rubycas/rubycas-client.git'
 gem 'searchkick'
 gem 'jquery-turbolinks'
+gem 'rails-html-sanitizer'
 
 group :development, :test do
   gem 'sqlite3', '1.3.9'

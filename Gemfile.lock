@@ -294,6 +294,7 @@ DEPENDENCIES
   pg (= 0.17.1)
   puma (= 2.11.1)
   rails (= 4.2.0)
+  rails-html-sanitizer
   rails_12factor (= 0.0.2)
   rubycas-client!
   sass-rails (= 5.0.1)
