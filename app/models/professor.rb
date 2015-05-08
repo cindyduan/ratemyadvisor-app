@@ -73,5 +73,13 @@ class Professor < ActiveRecord::Base
     end 
     return Float(sum) / Float(counter)
   end
-
+  
+  def num_rev
+    reviews = self.reviews
+    counter = 0
+    reviews.each do |review|
+      counter += 1
+    end
+    return counter
+  end
 end
