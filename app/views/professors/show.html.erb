@@ -6,27 +6,35 @@
 	<%= @professor.department %>
       </h1>
       <h2>
-      <%= @professor.netid %>@princeton.edu
-      <br>
-      <%= link_to "Add a review", new_review_path(id: params[:id]), class: "btn btn-custom" %>
+	<%= @professor.netid %>@princeton.edu
+	<br>
+	<span class="timestamp">
+	  Added <%= time_ago_in_words(@professor.created_at) %> ago.
+	  <% if session[:cas_user] == "cxduan" %>
+	  <%= link_to "delete", @professor, method: :delete,
+              data: { confirm: "You sure?" } %>
+	  <% end %>	  
+	</span>
+	<br>
+	<%= link_to "Add a review", new_review_path(id: params[:id]), class: "btn btn-custom" %>
       </h2>
     </section>
   </aside>
 
   <div class="col-md-8">
     <% if @professor.reviews.any? %>
-      <h3>Average Availability (<%= '%.2f / 5.00' % @professor.avg_avail %>)</h3>
-      <h3>Average Responsiveness (<%= '%.2f / 5.00' % @professor.avg_resp %>)</h3>
-      <h3>Average Knowledge (<%= '%.2f / 5.00' % @professor.avg_know %>)</h3>
-      <h3>Average Organization (<%= '%.2f / 5.00' % @professor.avg_org %>)</h3>
-      <h3>Average Friendliness (<%= '%.2f / 5.00' % @professor.avg_friend %>)</h3>
-      <h3>Average Helpfulness (<%='%.2f / 5.00' %  @professor.avg_help %>)</h3>
-      <h3>Comments (<%= @professor.reviews.count %>)</h3>
-      <ul class="reviews">
-        <%= render @reviews %>
-      </ul>
+    <h3>Average Availability (<%= '%.2f / 5.00' % @professor.avg_avail %>)</h3>
+    <h3>Average Responsiveness (<%= '%.2f / 5.00' % @professor.avg_resp %>)</h3>
+    <h3>Average Knowledge (<%= '%.2f / 5.00' % @professor.avg_know %>)</h3>
+    <h3>Average Organization (<%= '%.2f / 5.00' % @professor.avg_org %>)</h3>
+    <h3>Average Friendliness (<%= '%.2f / 5.00' % @professor.avg_friend %>)</h3>
+    <h3>Average Helpfulness (<%='%.2f / 5.00' %  @professor.avg_help %>)</h3>
+    <h3>Comments (<%= @professor.reviews.count %>)</h3>
+    <ul class="reviews">
+      <%= render @reviews %>
+    </ul>
     <% else %>
-      <h3>No reviews yet for this professor!</h3>
+    <h3>No reviews yet for this professor!</h3>
     <% end %>
   </div>
 

@@ -9,6 +9,10 @@
       <%= professor.netid %>, 
       <%= professor.department %>
       (<%= professor.num_rev%> reviews)
+      <% if session[:cas_user] == "cxduan" %>
+        &nbsp;
+        Added <%= time_ago_in_words(professor.created_at) %> ago.
+      <% end %>
     </li>
   <% end %>
   <% end %>

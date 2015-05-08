@@ -47,7 +47,11 @@ class ProfessorsController < ApplicationController
         render 'index'
       end
     else
-      @professors = nil
+      if session[:cas_user] == "cxduan"
+        @professors = Professor.all
+      else
+        @professors = nil
+      end
     end
   end
 
@@ -58,6 +62,13 @@ class ProfessorsController < ApplicationController
                  limit: 20).map { |professor|
                    professor.first_name + " " + professor.last_name + ", " + professor.netid + ", " + professor.department
                  }
+  end
+
+  def destroy
+    professor = Professor.find(params[:id])
+    professor.destroy
+    flash[:success] = "Professor deleted"
+    redirect_to root_path
   end
 
 
