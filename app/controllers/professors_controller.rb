@@ -42,8 +42,9 @@ class ProfessorsController < ApplicationController
         @professors = Professor.search(params[:query],
                                        fields: [:first_name, :last_name, :netid, :department, :full_name])
       end
-      if @professors = nil
+      if @professors.count == 0
         flash.now[:danger] = 'No professors match your criteria!'
+        render 'index'
       end
     else
       @professors = nil
