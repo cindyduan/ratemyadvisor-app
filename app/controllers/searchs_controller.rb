@@ -47,6 +47,10 @@ class SearchsController < ApplicationController
       @professors = @professors.select {|professor| professor.avg_help >= params[:search][:min_help].to_i}
       all_fields_empty = false
     end
+    if params[:search][:min_rev] != ''
+      @professors = @professors.select {|professor| professor.num_rev >= params[:search][:min_rev].to_i}
+      all_fields_empty = false
+    end
 
     if all_fields_empty
       flash[:danger] = 'Must fill in at least one criteria!'
