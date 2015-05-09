@@ -18,6 +18,34 @@
       <%= f.label :department, "Department" %>
       <%= f.text_field :department, class: 'form-control' %>
 
+      <%= f.label :min_rating, "Minimum Average Ratings" %>
+      <div class="form-inline">
+      <table>
+      <tr>
+      <%= f.label :min_avail, "Availability " %>
+      <%= f.number_field(:min_avail, in: 0.0..5.0, step: 1.0, class: 'form-control', :style => "margin-left: 19px") %>
+
+      <%= f.label :min_resp, "Responsiveness ", :style => "margin-left: 50px"%>
+      <%= f.number_field(:min_resp, in: 0.0..5.0, step: 1.0, class: 'form-control', :style => "margin-left: 10px") %>
+
+      <br>
+      <%= f.label :min_know, "Knowledge " %>
+      <%= f.number_field(:min_know, in: 0.0..5.0, step: 1.0, class: 'form-control', :style => "margin-left: 16px") %>
+
+      <%= f.label :min_org, "Organization ", :style => "margin-left: 50px" %>
+      <%= f.number_field(:min_org, in: 0.0..5.0, step: 1.0, class: 'form-control', :style => "margin-left: 33px") %>
+
+      <br>
+      <%= f.label :min_friend, "Friendliness " %>
+      <%= f.number_field(:min_friend, in: 0.0..5.0, step: 1.0, class: 'form-control', :style => "margin-left: 10px") %>
+
+      <%= f.label :min_help, "Helpfulness ", :style => "margin-left: 50px" %>
+      <%= f.number_field(:min_help, in: 0.0..5.0, step: 1.0, class: 'form-control', :style => "margin-left: 40px") %>
+      <tr>
+      </table>
+      </div>
+
+      <br>
       <%= f.submit "Find advisor", class: "btn btn-custom" %>
     <% end %>
   </div>
