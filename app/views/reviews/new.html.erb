@@ -36,9 +36,16 @@
       <table>
       <tr>
       <%= f.label :relationship, "Type of work with advisor *" %>
-      <td><%= f.radio_button :relationship, "Senior Thesis", :style => "margin-left: 50px" %><%= f.label :relationship, 'Senior Thesis', :style => "display:inline", :style => "margin-left: 10px"%></td>
-      <td><%= f.radio_button :relationship, "Independent Work", :style => "margin-left: 55px" %><%= f.label :relationship, 'Independent Work', :style => "display:inline", :style => "margin-left: 10px" %></td>
-      <td><%= f.radio_button :relationship, "Research Assistant", :style => "margin-left: 55px" %><%= f.label :relationship, 'Research Assistant', :style => "display:inline", :style => "margin-left: 0px" %></td>
+      <% if session[:relationship] %>
+            <td><%= f.radio_button :relationship, "Senior Thesis", :style => "margin-left: 50px", :checked => (session[:relationship] == "Senior Thesis") %><%= f.label :relationship, 'Senior Thesis', :style => "display:inline", :style => "margin-left: 10px" %></td>
+            <td><%= f.radio_button :relationship, "Independent Work", :style => "margin-left: 55px", :checked => (session[:relationship] == "Independent Work") %><%= f.label :relationship, 'Independent Work', :style => "display:inline", :style => "margin-left: 10px"%></td>
+            <td><%= f.radio_button :relationship, "Research Assistant", :style => "margin-left: 55px", :checked => (session[:relationship] == "Research Assistant") %><%= f.label :relationship, 'Research Assistant', :style => "display:inline", :style => "margin-left: 0px" %></td>
+            <% session[:relationship] = nil %>
+      <% else %>
+            <td><%= f.radio_button :relationship, "Senior Thesis", :style => "margin-left: 50px" %><%= f.label :relationship, 'Senior Thesis', :style => "display:inline", :style => "margin-left: 10px"%></td>
+            <td><%= f.radio_button :relationship, "Independent Work", :style => "margin-left: 55px" %><%= f.label :relationship, 'Independent Work', :style => "display:inline", :style => "margin-left: 10px" %></td>
+            <td><%= f.radio_button :relationship, "Research Assistant", :style => "margin-left: 55px" %><%= f.label :relationship, 'Research Assistant', :style => "display:inline", :style => "margin-left: 0px" %></td>
+      <% end %>
       <tr>
       </table>
       </div>
@@ -48,11 +55,20 @@
       <tr>
       <%= f.label :availability, "Availability *" %>
       <td>Very unavailable</td>
-      <td><%= f.radio_button :availability, 1, :style => "margin-left: 10px" %><%= f.label :availability, '1', :style => "display:inline", :style => "margin-left: 15px" %></td>
-      <td><%= f.radio_button :availability, 2, :style => "margin-left: 10px" %><%= f.label :availability, '2', :style => "display:inline", :style => "margin-left: 15px" %></td>
-      <td><%= f.radio_button :availability, 3, :style => "margin-left: 10px" %><%= f.label :availability, '3', :style => "display:inline", :style => "margin-left: 15px" %> </td>
-      <td><%= f.radio_button :availability, 4, :style => "margin-left: 10px" %><%= f.label :availability, '4', :style => "display:inline", :style => "margin-left: 15px" %> </td>
-      <td><%= f.radio_button :availability, 5, :style => "margin-left: 10px" %><%= f.label :availability, '5', :style => "display:inline", :style => "margin-left: 15px" %> </td>
+      <% if session[:availability] %>
+            <td><%= f.radio_button :availability, 1, :style => "margin-left: 10px", :checked => (session[:availability] == "1") %><%= f.label :availability, '1', :style => "display:inline", :style => "margin-left: 15px" %></td>
+            <td><%= f.radio_button :availability, 2, :style => "margin-left: 10px", :checked => (session[:availability] == "2") %><%= f.label :availability, '2', :style => "display:inline", :style => "margin-left: 15px" %></td>
+            <td><%= f.radio_button :availability, 3, :style => "margin-left: 10px", :checked => (session[:availability] == "3") %><%= f.label :availability, '3', :style => "display:inline", :style => "margin-left: 15px" %> </td>
+            <td><%= f.radio_button :availability, 4, :style => "margin-left: 10px", :checked => (session[:availability] == "4") %><%= f.label :availability, '4', :style => "display:inline", :style => "margin-left: 15px" %> </td>
+            <td><%= f.radio_button :availability, 5, :style => "margin-left: 10px", :checked => (session[:availability] == "5") %><%= f.label :availability, '5', :style => "display:inline", :style => "margin-left: 15px" %> </td>
+            <% session[:availability] = nil %>
+      <% else %>
+            <td><%= f.radio_button :availability, 1, :style => "margin-left: 10px" %><%= f.label :availability, '1', :style => "display:inline", :style => "margin-left: 15px" %></td>
+            <td><%= f.radio_button :availability, 2, :style => "margin-left: 10px" %><%= f.label :availability, '2', :style => "display:inline", :style => "margin-left: 15px" %></td>
+            <td><%= f.radio_button :availability, 3, :style => "margin-left: 10px" %><%= f.label :availability, '3', :style => "display:inline", :style => "margin-left: 15px" %> </td>
+            <td><%= f.radio_button :availability, 4, :style => "margin-left: 10px" %><%= f.label :availability, '4', :style => "display:inline", :style => "margin-left: 15px" %> </td>
+            <td><%= f.radio_button :availability, 5, :style => "margin-left: 10px" %><%= f.label :availability, '5', :style => "display:inline", :style => "margin-left: 15px" %> </td>
+      <% end %>
       <td>&emsp;</td>
       <td>Very available</td>
       </tr>
@@ -62,11 +78,20 @@
       <tr>
       <%= f.label :responsiveness, "Responsiveness *" %>
       <td>Very unresponsive</td>
-      <td><%= f.radio_button :responsiveness, 1, :style => "margin-left: 10px" %><%= f.label :responsiveness, '1', :style => "display:inline", :style => "margin-left: 15px" %></td>
-      <td><%= f.radio_button :responsiveness, 2, :style => "margin-left: 10px" %><%= f.label :responsivenes, '2', :style => "display:inline", :style => "margin-left: 15px" %></td>
-      <td><%= f.radio_button :responsiveness, 3, :style => "margin-left: 10px" %><%= f.label :responsiveness, '3', :style => "display:inline", :style => "margin-left: 15px" %> </td>
-      <td><%= f.radio_button :responsiveness, 4, :style => "margin-left: 10px" %><%= f.label :responsiveness, '4', :style => "display:inline", :style => "margin-left: 15px" %> </td>
-      <td><%= f.radio_button :responsiveness, 5, :style => "margin-left: 10px" %><%= f.label :responsiveness, '5', :style => "display:inline", :style => "margin-left: 15px" %> </td>
+      <% if session[:responsiveness] %>
+            <td><%= f.radio_button :responsiveness, 1, :style => "margin-left: 10px", :checked => (session[:responsiveness] == "1") %><%= f.label :responsiveness, '1', :style => "display:inline", :style => "margin-left: 15px" %></td>
+            <td><%= f.radio_button :responsiveness, 2, :style => "margin-left: 10px", :checked => (session[:responsiveness] == "2") %><%= f.label :responsivenes, '2', :style => "display:inline", :style => "margin-left: 15px" %></td>
+            <td><%= f.radio_button :responsiveness, 3, :style => "margin-left: 10px", :checked => (session[:responsiveness] == "3") %><%= f.label :responsiveness, '3', :style => "display:inline", :style => "margin-left: 15px" %> </td>
+            <td><%= f.radio_button :responsiveness, 4, :style => "margin-left: 10px", :checked => (session[:responsiveness] == "4") %><%= f.label :responsiveness, '4', :style => "display:inline", :style => "margin-left: 15px" %> </td>
+            <td><%= f.radio_button :responsiveness, 5, :style => "margin-left: 10px", :checked => (session[:responsiveness] == "5") %><%= f.label :responsiveness, '5', :style => "display:inline", :style => "margin-left: 15px" %> </td>
+            <% session[:responsiveness] = nil %>
+      <% else %>
+            <td><%= f.radio_button :responsiveness, 1, :style => "margin-left: 10px" %><%= f.label :responsiveness, '1', :style => "display:inline", :style => "margin-left: 15px" %></td>
+            <td><%= f.radio_button :responsiveness, 2, :style => "margin-left: 10px" %><%= f.label :responsivenes, '2', :style => "display:inline", :style => "margin-left: 15px" %></td>
+            <td><%= f.radio_button :responsiveness, 3, :style => "margin-left: 10px" %><%= f.label :responsiveness, '3', :style => "display:inline", :style => "margin-left: 15px" %> </td>
+            <td><%= f.radio_button :responsiveness, 4, :style => "margin-left: 10px" %><%= f.label :responsiveness, '4', :style => "display:inline", :style => "margin-left: 15px" %> </td>
+            <td><%= f.radio_button :responsiveness, 5, :style => "margin-left: 10px" %><%= f.label :responsiveness, '5', :style => "display:inline", :style => "margin-left: 15px" %> </td>
+      <% end %>
       <td>&emsp;</td>
       <td>Very responsive</td>
       </tr>
@@ -76,11 +101,20 @@
       <tr>
       <%= f.label :knowledge, "Knowledge *" %>
       <td>Very unknowledgeable</td>
-      <td><%= f.radio_button :knowledge, 1, :style => "margin-left: 10px" %><%= f.label :knowledge, '1', :style => "display:inline", :style => "margin-left: 15px" %></td>
-      <td><%= f.radio_button :knowledge, 2, :style => "margin-left: 10px" %><%= f.label :knowledge, '2', :style => "display:inline", :style => "margin-left: 15px" %></td>
-      <td><%= f.radio_button :knowledge, 3, :style => "margin-left: 10px" %><%= f.label :knowledge, '3', :style => "display:inline", :style => "margin-left: 15px" %> </td>
-      <td><%= f.radio_button :knowledge, 4, :style => "margin-left: 10px" %><%= f.label :knowledge, '4', :style => "display:inline", :style => "margin-left: 15px" %> </td>
-      <td><%= f.radio_button :knowledge, 5, :style => "margin-left: 10px" %><%= f.label :knowledge, '5', :style => "display:inline", :style => "margin-left: 15px" %> </td>
+      <% if session[:knowledge] %>
+            <td><%= f.radio_button :knowledge, 1, :style => "margin-left: 10px", :checked => (session[:knowledge] == "1") %><%= f.label :knowledge, '1', :style => "display:inline", :style => "margin-left: 15px" %></td>
+            <td><%= f.radio_button :knowledge, 2, :style => "margin-left: 10px", :checked => (session[:knowledge] == "2") %><%= f.label :knowledge, '2', :style => "display:inline", :style => "margin-left: 15px" %></td>
+            <td><%= f.radio_button :knowledge, 3, :style => "margin-left: 10px", :checked => (session[:knowledge] == "3") %><%= f.label :knowledge, '3', :style => "display:inline", :style => "margin-left: 15px" %> </td>
+            <td><%= f.radio_button :knowledge, 4, :style => "margin-left: 10px", :checked => (session[:knowledge] == "4") %><%= f.label :knowledge, '4', :style => "display:inline", :style => "margin-left: 15px" %> </td>
+            <td><%= f.radio_button :knowledge, 5, :style => "margin-left: 10px", :checked => (session[:knowledge] == "5") %><%= f.label :knowledge, '5', :style => "display:inline", :style => "margin-left: 15px" %> </td>
+            <% session[:knowledge] = nil %>
+      <% else %>
+            <td><%= f.radio_button :knowledge, 1, :style => "margin-left: 10px" %><%= f.label :knowledge, '1', :style => "display:inline", :style => "margin-left: 15px" %></td>
+            <td><%= f.radio_button :knowledge, 2, :style => "margin-left: 10px" %><%= f.label :knowledge, '2', :style => "display:inline", :style => "margin-left: 15px" %></td>
+            <td><%= f.radio_button :knowledge, 3, :style => "margin-left: 10px" %><%= f.label :knowledge, '3', :style => "display:inline", :style => "margin-left: 15px" %> </td>
+            <td><%= f.radio_button :knowledge, 4, :style => "margin-left: 10px" %><%= f.label :knowledge, '4', :style => "display:inline", :style => "margin-left: 15px" %> </td>
+            <td><%= f.radio_button :knowledge, 5, :style => "margin-left: 10px" %><%= f.label :knowledge, '5', :style => "display:inline", :style => "margin-left: 15px" %> </td>
+      <% end %>
       <td>&emsp;</td>
       <td>Very knowledgeable</td>
       </tr>
@@ -90,11 +124,20 @@
       <tr>
       <%= f.label :organization, "Organization *" %>
       <td>Very unorganized</td>
-      <td><%= f.radio_button :organization, 1, :style => "margin-left: 10px" %><%= f.label :organization, '1', :style => "display:inline", :style => "margin-left: 15px" %></td>
-      <td><%= f.radio_button :organization, 2, :style => "margin-left: 10px" %><%= f.label :organization, '2', :style => "display:inline", :style => "margin-left: 15px" %></td>
-      <td><%= f.radio_button :organization, 3, :style => "margin-left: 10px" %><%= f.label :organization, '3', :style => "display:inline", :style => "margin-left: 15px" %> </td>
-      <td><%= f.radio_button :organization, 4, :style => "margin-left: 10px" %><%= f.label :organization, '4', :style => "display:inline", :style => "margin-left: 15px" %> </td>
-      <td><%= f.radio_button :organization, 5, :style => "margin-left: 10px" %><%= f.label :organization, '5', :style => "display:inline", :style => "margin-left: 15px" %> </td>
+      <% if session[:organization] %>
+            <td><%= f.radio_button :organization, 1, :style => "margin-left: 10px", :checked => (session[:organization] == "1") %><%= f.label :organization, '1', :style => "display:inline", :style => "margin-left: 15px" %></td>
+            <td><%= f.radio_button :organization, 2, :style => "margin-left: 10px", :checked => (session[:organization] == "2") %><%= f.label :organization, '2', :style => "display:inline", :style => "margin-left: 15px" %></td>
+            <td><%= f.radio_button :organization, 3, :style => "margin-left: 10px", :checked => (session[:organization] == "3") %><%= f.label :organization, '3', :style => "display:inline", :style => "margin-left: 15px" %> </td>
+            <td><%= f.radio_button :organization, 4, :style => "margin-left: 10px", :checked => (session[:organization] == "4") %><%= f.label :organization, '4', :style => "display:inline", :style => "margin-left: 15px" %> </td>
+            <td><%= f.radio_button :organization, 5, :style => "margin-left: 10px", :checked => (session[:organization] == "5") %><%= f.label :organization, '5', :style => "display:inline", :style => "margin-left: 15px" %> </td>
+            <% session[:organization] = nil %>
+      <% else %>
+            <td><%= f.radio_button :organization, 1, :style => "margin-left: 10px" %><%= f.label :organization, '1', :style => "display:inline", :style => "margin-left: 15px" %></td>
+            <td><%= f.radio_button :organization, 2, :style => "margin-left: 10px" %><%= f.label :organization, '2', :style => "display:inline", :style => "margin-left: 15px" %></td>
+            <td><%= f.radio_button :organization, 3, :style => "margin-left: 10px" %><%= f.label :organization, '3', :style => "display:inline", :style => "margin-left: 15px" %> </td>
+            <td><%= f.radio_button :organization, 4, :style => "margin-left: 10px" %><%= f.label :organization, '4', :style => "display:inline", :style => "margin-left: 15px" %> </td>
+            <td><%= f.radio_button :organization, 5, :style => "margin-left: 10px" %><%= f.label :organization, '5', :style => "display:inline", :style => "margin-left: 15px" %> </td>
+      <% end %>
       <td>&emsp;</td>
       <td>Very organized</td>
       </tr>
@@ -104,11 +147,20 @@
       <tr>
       <%= f.label :friendliness, "Friendliness *" %>
       <td>Very unfriendly</td>
-      <td><%= f.radio_button :friendliness, 1, :style => "margin-left: 10px" %><%= f.label :friendliness, '1', :style => "display:inline", :style => "margin-left: 15px" %></td>
-      <td><%= f.radio_button :friendliness, 2, :style => "margin-left: 10px" %><%= f.label :friendliness, '2', :style => "display:inline", :style => "margin-left: 15px" %></td>
-      <td><%= f.radio_button :friendliness, 3, :style => "margin-left: 10px" %><%= f.label :friendliness, '3', :style => "display:inline", :style => "margin-left: 15px" %> </td>
-      <td><%= f.radio_button :friendliness, 4, :style => "margin-left: 10px" %><%= f.label :friendliness, '4', :style => "display:inline", :style => "margin-left: 15px" %> </td>
-      <td><%= f.radio_button :friendliness, 5, :style => "margin-left: 10px" %><%= f.label :friendliness, '5', :style => "display:inline", :style => "margin-left: 15px" %> </td>
+      <% if session[:friendliness] %>
+            <td><%= f.radio_button :friendliness, 1, :style => "margin-left: 10px", :checked => (session[:friendliness] == "1") %><%= f.label :friendliness, '1', :style => "display:inline", :style => "margin-left: 15px" %></td>
+            <td><%= f.radio_button :friendliness, 2, :style => "margin-left: 10px", :checked => (session[:friendliness] == "2") %><%= f.label :friendliness, '2', :style => "display:inline", :style => "margin-left: 15px" %></td>
+            <td><%= f.radio_button :friendliness, 3, :style => "margin-left: 10px", :checked => (session[:friendliness] == "3") %><%= f.label :friendliness, '3', :style => "display:inline", :style => "margin-left: 15px" %> </td>
+            <td><%= f.radio_button :friendliness, 4, :style => "margin-left: 10px", :checked => (session[:friendliness] == "4") %><%= f.label :friendliness, '4', :style => "display:inline", :style => "margin-left: 15px" %> </td>
+            <td><%= f.radio_button :friendliness, 5, :style => "margin-left: 10px", :checked => (session[:friendliness] == "5") %><%= f.label :friendliness, '5', :style => "display:inline", :style => "margin-left: 15px" %> </td>
+            <% session[:friendliness] = nil %>
+      <% else %>
+            <td><%= f.radio_button :friendliness, 1, :style => "margin-left: 10px" %><%= f.label :friendliness, '1', :style => "display:inline", :style => "margin-left: 15px" %></td>
+            <td><%= f.radio_button :friendliness, 2, :style => "margin-left: 10px" %><%= f.label :friendliness, '2', :style => "display:inline", :style => "margin-left: 15px" %></td>
+            <td><%= f.radio_button :friendliness, 3, :style => "margin-left: 10px" %><%= f.label :friendliness, '3', :style => "display:inline", :style => "margin-left: 15px" %> </td>
+            <td><%= f.radio_button :friendliness, 4, :style => "margin-left: 10px" %><%= f.label :friendliness, '4', :style => "display:inline", :style => "margin-left: 15px" %> </td>
+            <td><%= f.radio_button :friendliness, 5, :style => "margin-left: 10px" %><%= f.label :friendliness, '5', :style => "display:inline", :style => "margin-left: 15px" %> </td>
+      <% end %>
       <td>&emsp;</td>
       <td>Very friendly</td>
       </tr>
@@ -118,11 +170,20 @@
       <tr>
       <%= f.label :helpfulness, "Helpfulness *" %>
       <td>Very unhelpful</td>
-      <td><%= f.radio_button :helpfulness, 1, :style => "margin-left: 10px" %><%= f.label :helpfulness, '1', :style => "display:inline", :style => "margin-left: 15px" %></td>
-      <td><%= f.radio_button :helpfulness, 2, :style => "margin-left: 10px" %><%= f.label :helpfulness, '2', :style => "display:inline", :style => "margin-left: 15px" %></td>
-      <td><%= f.radio_button :helpfulness, 3, :style => "margin-left: 10px" %><%= f.label :helpfulness, '3', :style => "display:inline", :style => "margin-left: 15px" %> </td>
-      <td><%= f.radio_button :helpfulness, 4, :style => "margin-left: 10px" %><%= f.label :helpfulness, '4', :style => "display:inline", :style => "margin-left: 15px" %> </td>
-      <td><%= f.radio_button :helpfulness, 5, :style => "margin-left: 10px" %><%= f.label :helpfulness, '5', :style => "display:inline", :style => "margin-left: 15px" %> </td>
+      <% if session[:helpfulness] %>
+            <td><%= f.radio_button :helpfulness, 1, :style => "margin-left: 10px", :checked => (session[:helpfulness] == "1") %><%= f.label :helpfulness, '1', :style => "display:inline", :style => "margin-left: 15px" %></td>
+            <td><%= f.radio_button :helpfulness, 2, :style => "margin-left: 10px", :checked => (session[:helpfulness] == "2") %><%= f.label :helpfulness, '2', :style => "display:inline", :style => "margin-left: 15px" %></td>
+            <td><%= f.radio_button :helpfulness, 3, :style => "margin-left: 10px", :checked => (session[:helpfulness] == "3") %><%= f.label :helpfulness, '3', :style => "display:inline", :style => "margin-left: 15px" %> </td>
+            <td><%= f.radio_button :helpfulness, 4, :style => "margin-left: 10px", :checked => (session[:helpfulness] == "4") %><%= f.label :helpfulness, '4', :style => "display:inline", :style => "margin-left: 15px" %> </td>
+            <td><%= f.radio_button :helpfulness, 5, :style => "margin-left: 10px", :checked => (session[:helpfulness] == "5") %><%= f.label :helpfulness, '5', :style => "display:inline", :style => "margin-left: 15px" %> </td>
+            <% session[:helpfulness] = nil %>
+      <% else %>
+            <td><%= f.radio_button :helpfulness, 1, :style => "margin-left: 10px" %><%= f.label :helpfulness, '1', :style => "display:inline", :style => "margin-left: 15px" %></td>
+            <td><%= f.radio_button :helpfulness, 2, :style => "margin-left: 10px" %><%= f.label :helpfulness, '2', :style => "display:inline", :style => "margin-left: 15px" %></td>
+            <td><%= f.radio_button :helpfulness, 3, :style => "margin-left: 10px" %><%= f.label :helpfulness, '3', :style => "display:inline", :style => "margin-left: 15px" %> </td>
+            <td><%= f.radio_button :helpfulness, 4, :style => "margin-left: 10px" %><%= f.label :helpfulness, '4', :style => "display:inline", :style => "margin-left: 15px" %> </td>
+            <td><%= f.radio_button :helpfulness, 5, :style => "margin-left: 10px" %><%= f.label :helpfulness, '5', :style => "display:inline", :style => "margin-left: 15px" %> </td>
+      <% end %>
       <td>&emsp;</td>
       <td>Very helpful</td>
       </tr>
