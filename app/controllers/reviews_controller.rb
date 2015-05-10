@@ -7,7 +7,7 @@ class ReviewsController < ApplicationController
 
   def create
     if params[:review][:professor_netid] == ""
-      flash[:danger] = "Professor NetID cannot be blank!"
+      flash[:danger] = "All fields are required!"
       redirect_to new_review_path
     else
       @professor = Professor.find_by(netid: params[:review][:professor_netid].downcase)

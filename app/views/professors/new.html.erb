@@ -7,15 +7,15 @@
     <%= form_for(@professor) do |f| %>
       <%= render 'shared/error_messages', object: f.object %>
 
-      <div align="right">* Required Fields</div>  
+      <div class="required_fields" align="right">* Required Fields</div>  
 
-      <%= f.label :first_name, "First Name*" %>
+      <%= f.label :first_name, "First Name" %><font color="red">*</font>
       <%= f.text_field :first_name, class: 'form-control' %>
 
-      <%= f.label :last_name, "Last Name*" %>
+      <%= f.label :last_name, "Last Name" %><font color="red">*</font>
       <%= f.text_field :last_name, class: 'form-control' %>
 
-      <%= f.label :netid, "NetID*" %>
+      <%= f.label :netid, "NetID" %><font color="red">*</font>
       <% if session[:new_professor_netid] %>
         <%= f.text_field :netid, class: 'form-control', :value => session[:new_professor_netid]%>
         <% session[:new_professor_netid] = nil %>
@@ -23,7 +23,7 @@
         <%= f.text_field :netid, class: 'form-control' %>
       <% end %>
 
-      <%= f.label :department, "Department*" %>
+      <%= f.label :department, "Department" %><font color="red">*</font>
       <%= f.text_field :department, class: 'form-control' %>
 
       <%= f.submit "Add advisor", class: "btn btn-custom" %>
