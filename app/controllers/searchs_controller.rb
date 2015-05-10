@@ -23,6 +23,34 @@ class SearchsController < ApplicationController
       @professors = @professors.select {|professor| professor.last_name.downcase == params[:search][:last_name].downcase}
       all_fields_empty = false
     end
+    if params[:search][:min_avail] != ''
+      @professors = @professors.select {|professor| professor.avg_avail >= params[:search][:min_avail].to_i}
+      all_fields_empty = false
+    end
+    if params[:search][:min_resp] != ''
+      @professors = @professors.select {|professor| professor.avg_resp >= params[:search][:min_resp].to_i}
+      all_fields_empty = false
+    end
+    if params[:search][:min_know] != ''
+      @professors = @professors.select {|professor| professor.avg_know >= params[:search][:min_know].to_i}
+      all_fields_empty = false
+    end
+    if params[:search][:min_org] != ''
+      @professors = @professors.select {|professor| professor.avg_org >= params[:search][:min_org].to_i}
+      all_fields_empty = false
+    end
+    if params[:search][:min_friend] != ''
+      @professors = @professors.select {|professor| professor.avg_friend >= params[:search][:min_friend].to_i}
+      all_fields_empty = false
+    end
+    if params[:search][:min_help] != ''
+      @professors = @professors.select {|professor| professor.avg_help >= params[:search][:min_help].to_i}
+      all_fields_empty = false
+    end
+    if params[:search][:min_rev] != ''
+      @professors = @professors.select {|professor| professor.num_rev >= params[:search][:min_rev].to_i}
+      all_fields_empty = false
+    end
 
     if all_fields_empty
       flash[:danger] = 'Must fill in at least one criteria!'
