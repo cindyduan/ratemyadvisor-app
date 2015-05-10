@@ -12,6 +12,7 @@ class ReviewsController < ApplicationController
     else
       @professor = Professor.find_by(netid: params[:review][:professor_netid].downcase)
       if @professor
+        session[:new_professor_netid] = nil
         @review = @professor.reviews.build(review_params)
         if @review.save
           flash[:success] = "Review created!"
@@ -20,8 +21,17 @@ class ReviewsController < ApplicationController
           render 'new'
         end
       else
-        flash[:danger] = "Advisor does not exist! Please add him/her to the database!"
-        redirect_to new_professor_path
+        session[:student_class] = params[:review][:student_class]
+        session[:professor_netid] = params[:review][:professor_netid]
+        session[:relationship] = params[:review][:relationship]
+        session[:availability] = params[:review][:availability]
+        session[:responsiveness] = params[:review][:responsiveness]
+        session[:knowledge] = params[:review][:knowledge]
+        session[:friendliness] = params[:review][:friendliness]
+        session[:helpfulness] = params[:review][:helpfulness]
+        session[:comments] = params[:review][:comments]
+        flash[:danger] = render_to_string(:partial => "shared/new_professor_message")
+        redirect_to new_review_path
       end  
     end
   end
