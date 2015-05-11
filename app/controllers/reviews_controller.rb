@@ -7,6 +7,15 @@ class ReviewsController < ApplicationController
 
   def create
     if params[:review][:professor_netid] == ""
+      session[:student_class] = params[:review][:student_class]
+        session[:professor_netid] = params[:review][:professor_netid]
+        session[:relationship] = params[:review][:relationship]
+        session[:availability] = params[:review][:availability]
+        session[:responsiveness] = params[:review][:responsiveness]
+        session[:knowledge] = params[:review][:knowledge]
+        session[:friendliness] = params[:review][:friendliness]
+        session[:helpfulness] = params[:review][:helpfulness]
+        session[:comments] = params[:review][:comments]
       flash[:danger] = "All fields are required!"
       redirect_to new_review_path
     else
