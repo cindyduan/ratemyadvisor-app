@@ -1,8 +1,86 @@
+<!DOCTYPE html>
 <% provide(:title, "About") %>
 <h1>About RateMyAdvisor</h1>
 <br>
 <p>The advising relationship is a quintessential part of the undergraduate Princeton experience, but finding that perfect match between students and professors is currently a guideless and often confusing process. RateMyAdvisor is a web based application that was borne out of the shared anxieties, joys, and frustrations that students have expressed over their advising experiences at Princeton. It aims to make the matching process easier and more informed for students by providing a platform on which they can share personal feedback on their past advisors and read reviews of potential advisors written by their peers.</p>
 
-<iframe width="420" height="315"
-src="https://www.youtube.com/watch?v=9Jm3YVjUDIQ">
-</iframe>
+<br>
+<div class="youtube_vid center">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/9Jm3YVjUDIQ" frameborder="0" allowfullscreen></iframe>
+</div>
+<br>
+
+<h3>Find an advisor</h3>
+<p>In need of an advisor for your senior thesis? Want to rate the professor that made your independent work possible? RateMyAdvisor provides multiple search features that will help you on your narrow your options and find the professor you desire. </p>
+
+<br style="clear:left;" />
+<div class="left-text-container">
+<%= image_tag("screenshot2.png", align: "right", style: "padding-left: 20px")%>
+<h4 style="margin-top: 0px;"> Search bar </h4>
+<p> Use the header search bar to search for a professor by first name, last name, full name, netID and department. Possible matches are displayed with all faculty information to help students identify specific professors they are looking for. RateMyAdvisor contains information on more than 1,000 Princeton professors, representing all current faculty members and professors added by previous users. </p>
+</div>
+
+<br style="clear:left;" /><br>
+<div class="right-text-container2">
+	<%= image_tag("screenshot3.png", align: "left", style: "padding-right: 20px")%>
+	<h4> Find an advisor form </h4>
+	<p> For more advanced search features, the <%= link_to "Find an advisor", find_path %> page allows students to search for professors based on multiple search parameters.   </p>
+	<p> Students can search for all combinations of first name, last name, netID and department, and can also filter their search by minimum ratings for six advising criteria and by the number of reviews received.</p>
+</div>
+
+<br style="clear:left;" /><br><br>
+<div class="left-text-container">
+	<%= image_tag("screenshot5.png", align: "right", style: "padding-left: 20px")%>
+	<h4 style="margin-top: 0px;"> Search results </h4>
+	<p> All the professors that fit the search criteria are displayed with their netIDs and links to their specific pages. The number of reviews added for each professor is also displayed to help students define which advisors' page to access. </p>
+	<p> The results page also features a button that redirects users to the <%= link_to "Add an advisor", new_professor_path %> page in case the professor they are seeking is not included in the results.</p>
+</div>
+
+<br style="clear:right;" /><br>
+<div class="left-text-container2">
+	<%= image_tag("screenshot10.png", align: "right", style: "padding-left: 20px")%>
+	<h4> Professor page </h4>
+	<p> An advisor's page displays the faculty member's basic information on the top left, along with an Add a review button, which redirects the user to the <%= link_to "Rate an advisor", new_review_path %> page.</p>
+	<p> On the right of the page, the averages of each search criteria are displayed. Each advisor is rated on six criteria from 0 to 5: availability, responsiveness, knowledge, organization friendliness and helpfulness.</p>
+	<p> Bellow the average ratings, a list of students' comment is displayed to provide users with even more information about others' past advising experiences.</p>
+</div>
+
+<br style="clear:right;" /><br><br>
+<div class="left-text-container3">
+<%= image_tag("screenshot6.png", align: "left", style: "padding-right: 20px")%>
+<h3 style="margin-top: 0px;">Rate an advisor</h3>
+<h4> Rate an advisor form </h4>
+<p> When students have found the advisor they are looking for, they can rate their advising experience in the <%= link_to "Rate an advisor", new_review_path %> page. </p>
+<p> To rate an advisor, students need to include their class year, the advisor's netID, the type of work with the advisor, six rating criteria about the quality of the advising, and to provide a comment about their experience with the professor. </p>
+</div>
+
+<br style="clear:left;" /><br>
+<div class="left-text-container5">
+<%= image_tag("screenshot12.png", align: "left", style: "padding-right: 20px")%>
+<p> The new review is then added to the professor's page, updating the averages for each advising criteria and including the most recent comment at the top of the comments section. </p>
+</div>
+
+<br style="clear:left;" /><br>
+<div class="right-text-conatiner3">
+	<%= image_tag("screenshot7.png", align: "right", style: "padding-left: 20px")%>
+	<h3>Didn't find your advisor? Add him to our database!</h3>
+	<p> If you did not find your advisor either by using any of the search features or when writing a review, you can add him to the faculty in our database through the <%= link_to "Add an advisor", new_professor_path %> page.</p>
+	<p> This feature allows for students to add past faculty members that are no longer at Princeton or new faculty still not included in the database.</p>
+</div>
+
+<br style="clear:right;" /><br>
+<div class="left-text-container4">
+	<%= image_tag("screenshot9.png", align: "right", style: "padding-left: 20px")%>
+	<h4> Add an advisor form </h4>
+	<p> In the <%= link_to "Add an advisor", new_professor_path %> page, students must provide the advisors' basic infomrtaion (first mame, last Name, netID and department) to add them to the database.</p>
+	<p> If the user was taken to the Add an advisor page through the Rate an advisor page, the netID of the faculty member they attempted to rate will already be included in the form.</p>
+</div>
+
+<br style="clear:right;" /><br>
+<div class="left-text-container4">
+<%= image_tag("screenshot11.png", align: "left", style: "padding-right: 20px")%>
+<p> When a new faculty member is added, a new advisor page containing his information is created.</p>
+<p> After the advisor is added, you can now review him! </p>
+</div>
+
+<br style="clear:left;" /><br>
