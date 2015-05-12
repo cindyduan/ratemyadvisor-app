@@ -16,12 +16,7 @@
       <%= f.text_field :last_name, class: 'form-control' %>
 
       <%= f.label :netid, "NetID" %><font color="red">*</font>
-      <% if session[:new_professor_netid] %>
-        <%= f.text_field :netid, class: 'form-control', :value => session[:new_professor_netid]%>
-        <% session[:new_professor_netid] = nil %>
-      <% else %>
-        <%= f.text_field :netid, class: 'form-control' %>
-      <% end %>
+      <%= f.text_field :netid, class: 'form-control' %>
 
       <%= f.label :department, "Department" %><font color="red">*</font>
       <%= f.text_field :department, class: 'form-control' %>
